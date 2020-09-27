@@ -7,9 +7,9 @@ using namespace rlutil;
 
 int main()
 {
-    initUI();
+    initUI(); // INICIA UI, NECESARIO
     while(true){
-        cls();
+        cls(); // Elimina lo que hay en la pantalla
         //Ingresar el titulo como ejemplo, colores definidos en ui.h
         title("MENU PRINCIPAL", APP_TITLEFORECOLOR, APP_TITLEBACKCOLOR);
         gotoxy(1, 5); //Indica la posicion despues del titulo, 1 = COLUMNA , 5 FILA
@@ -38,6 +38,7 @@ int main()
                 msj("Mensaje de advertencia", rlutil::WHITE, rlutil::MAGENTA);
             break;
             case 4:
+                // lista la tipo planilla
                 listarPlanilla();
             break;
             case 0:
