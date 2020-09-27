@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+#include <iomanip>
 #include "rlutil.h"
 #include "ui.h"
 using namespace rlutil;
@@ -15,6 +16,8 @@ int main()
         cout << "Bienvenido a la interfaz de Consola, aca 2 ejemplos" << endl;
         cout << "1 -MENSAJE EXITO " << endl;
         cout << "2 -MENSAJE ERROR" << endl;
+        cout << "3 -MENSAJE ADVERTENCIA/AVISO" << endl;
+        cout << "4 -LISTAR PLANILLA" << endl;
         cout << "------------------" << endl;
         cout << "0 - SALIR" << endl;
         int pos;
@@ -23,12 +26,19 @@ int main()
 
         switch(pos){
             case 1:
-                // msj se muestra abajo a la izquierda, colores en rlutil.h
+                // msj se muestra abajo a la izquierda, colores en rlutil.h - texto, color letra, color fondo
                 msj("Guardado con exito!", rlutil::WHITE, rlutil::GREEN);
             break;
             case 2:
-                // msj se muestra abajo a la izquierda, colores en rlutil.h
+                // msj se muestra abajo a la izquierda, colores en rlutil.h - texto, color letra, color fondo
                 msj("No se pudo guardar", rlutil::WHITE, rlutil::RED);
+            break;
+            case 3:
+                // msj se muestra abajo a la izquierda, colores en rlutil.h - texto, color letra, color fondo
+                msj("Mensaje de advertencia", rlutil::WHITE, rlutil::MAGENTA);
+            break;
+            case 4:
+                listarPlanilla();
             break;
             case 0:
                 return 0;

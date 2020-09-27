@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+#include <iomanip>
 #include <cstring>
 #include "ui.h"
 #include "rlutil.h"
@@ -64,4 +65,24 @@ void delline(int line, int foreColor, int backColor){
     }
     resetColor();
     setColors(APP_FORECOLOR, APP_BACKCOLOR);
+}
+/// COPIAR FUNCION Y EDITAR LOS DATOS A MOSTRAR
+void listarPlanilla(){
+    int ancho =10;
+    cls();
+    title("LISTAR PLANILLA", APP_TITLEFORECOLOR, APP_TITLEBACKCOLOR);
+    gotoxy(1, 5);
+    cout << left;
+    cout << setw(ancho) << "COL-1" << setw(ancho) << "COL-2" << setw(ancho) << "COL-3" << setw(ancho) << "COL-4" << setw(ancho) << "COL-5";
+    cout << endl << "----------------------------------------------------------------------------" << endl;
+    for(int i = 0; i<2; i++){
+        cout << setw(ancho) << "CELDA-1";
+        cout << setw(ancho) << "CELDA-2";
+        cout << setw(ancho) << "CELDA-3";
+        cout << setw(ancho) << "CELDA-4";
+        cout << setw(ancho) << "CELDA-5";
+        cout << endl << "----------------------------------------------------------------------------" << endl;
+    }
+    msj("Presione cualquier tecla para salir", rlutil::WHITE, rlutil::MAGENTA);
+    return;
 }

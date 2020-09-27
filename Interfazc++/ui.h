@@ -47,5 +47,5 @@ void title(const char *mensaje, int foreColor = APP_TITLEFORECOLOR, int backColo
 void msj(const char *mensaje, int foreColor = APP_FORECOLOR, int backColor = APP_BACKCOLOR, int y = SCREEN_HEIGHT, Orientation o = TEXT_CENTER);
 void delline(int line, int foreColor = APP_FORECOLOR, int backColor = APP_BACKCOLOR);
 void initUI();
-
+void listarPlanilla();
 #endif // UI_H_INCLUDED
