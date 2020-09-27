@@ -26,3 +26,24 @@
 	"rlutil.h"
 	"ui.h"
 
+1601216111 source:c:\users\maxi\documents\github\utn-repositorio\interfazc++\main.cpp
+	<iostream>
+	"rlutil.h"
+	"ui.h"
+
+1601212979 c:\users\maxi\documents\github\utn-repositorio\interfazc++\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1601216315 c:\users\maxi\documents\github\utn-repositorio\interfazc++\ui.h
+
