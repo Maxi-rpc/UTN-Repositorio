@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1588118401 source:c:\users\daniel kloster\documents\curso ejemplos c\programacion ii\2020\transporte\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	"tipos.h"
+	"prototipos.h"
+	"funciones.h"
+	"funciones_empresas.h"
+	"funciones_viajes.h"
+
+1588120135 c:\users\daniel kloster\documents\curso ejemplos c\programacion ii\2020\transporte\tipos.h
+
+1588120116 c:\users\daniel kloster\documents\curso ejemplos c\programacion ii\2020\transporte\prototipos.h
+
+1588114033 c:\users\daniel kloster\documents\curso ejemplos c\programacion ii\2020\transporte\funciones.h
+
+1588119908 c:\users\daniel kloster\documents\curso ejemplos c\programacion ii\2020\transporte\funciones_empresas.h
+
+1588119642 c:\users\daniel kloster\documents\curso ejemplos c\programacion ii\2020\transporte\funciones_viajes.h
+
+1601155228 source:c:\users\maxi\documents\github\utn-prog-2-transporte\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	"tipos.h"
+	"prototipos.h"
+	"funciones.h"
+	"funciones_empresas.h"
+	"funciones_viajes.h"
+	"reportes.h"
+
+1601155228 c:\users\maxi\documents\github\utn-prog-2-transporte\tipos.h
+
+1588120116 c:\users\maxi\documents\github\utn-prog-2-transporte\prototipos.h
+
+1588114033 c:\users\maxi\documents\github\utn-prog-2-transporte\funciones.h
+
+1588119908 c:\users\maxi\documents\github\utn-prog-2-transporte\funciones_empresas.h
+
+1601155228 c:\users\maxi\documents\github\utn-prog-2-transporte\funciones_viajes.h
+
+1601165750 c:\users\maxi\documents\github\utn-prog-2-transporte\reportes.h
+
