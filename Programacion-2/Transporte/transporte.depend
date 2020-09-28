@@ -68,3 +68,27 @@
 
 1601166623 c:\users\maxi\documents\github\utn-repositorio\programacion-2\transporte\reportes.h
 
+1601305701 source:c:\users\tivit\documents\github\utn-repositorio\programacion-2\transporte\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	"tipos.h"
+	"prototipos.h"
+	"funciones.h"
+	"funciones_empresas.h"
+	"funciones_viajes.h"
+	"reportes.h"
+
+1601305701 c:\users\tivit\documents\github\utn-repositorio\programacion-2\transporte\tipos.h
+
+1601305701 c:\users\tivit\documents\github\utn-repositorio\programacion-2\transporte\prototipos.h
+
+1601305701 c:\users\tivit\documents\github\utn-repositorio\programacion-2\transporte\funciones.h
+
+1601305701 c:\users\tivit\documents\github\utn-repositorio\programacion-2\transporte\funciones_empresas.h
+
+1601305701 c:\users\tivit\documents\github\utn-repositorio\programacion-2\transporte\funciones_viajes.h
+
+1601320812 c:\users\tivit\documents\github\utn-repositorio\programacion-2\transporte\reportes.h
+

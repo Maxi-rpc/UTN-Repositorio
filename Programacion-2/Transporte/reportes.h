@@ -10,6 +10,7 @@ void listadoEmpresaNoexterior();
 void listadoEmpresaNoexterior2();
 void consumoMesMarca();
 void mostrarConsumoMesMarca(float m[][10]);
+void cantKmRecorridosTNacional();
 
 // FIN PROTOTIPOS
 
@@ -22,7 +23,7 @@ void menuReportes(){
       cout << "1. GENERAR ARCHIVO PROMEDIO CONSUMO" << endl;
       cout << "2. LISTADO EMPRESA QUE NO VIAJAN AL EXTERIOR" << endl;
       cout << "3. POR CADA MES Y MARCA COMBUSTIBLE CONSUMIDO" << endl;
-      cout << "4. " << endl;
+      cout << "4. LA CANTIDAD DE KM RECORRIDOS TRANSPORTE NACIONAL" << endl;
       cout << "0. VOLVER AL MENU PRINCIPAL" << endl;
       cout << "- SELECCIONE UNA OPCION: - " << endl;
       cout << "-------------------------" << endl;
@@ -34,6 +35,8 @@ void menuReportes(){
         case 2: listadoEmpresaNoexterior2();
                 break;
         case 3: consumoMesMarca();
+                break;
+        case 4: //cantKmRecorridosTNacional();
                 break;
         case 0: return;
                 break;
@@ -145,21 +148,24 @@ void mostrarConsumoMesMarca(float combustibleMesMarca[12][10]){
     int i, v;
     system("cls");
     for(i=0; i<12; i++){
-        cout << "MES " << i+1 << endl;
+        cout << "MES " << i+1 <<": "<< endl;
         for(v=0; v<10; v++){
-            cout << "MARCA " << v+1 << endl;
-            cout<<combustibleMesMarca[i][v]<<endl;
+            if(combustibleMesMarca[i][v] != 0){
+                cout << "MARCA " << v+1 << ": ";
+                cout<<combustibleMesMarca[i][v]<<endl;
+            }
         }
+        cout << "-----------------------"<< endl;
 
     }
-    /*cout<<"MES: ";
-    cout<<combustibleMesMarca[][]<<endl;
-    cout<<"MARCA DEL VEHICULO: ";
-    cout<<var.marca<<endl;
-    cout<<"CANTIDAD DE COMBUSTIBLE CONSUMIDO: ";
-    cout<<var.cantidadCombustible<<endl; */
 
     system("pause>nul");
 }
+
+void cantKmRecorridosTNacional(){
+
+
+}
+
 
 #endif // REPORTES_H_INCLUDED
