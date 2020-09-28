@@ -55,3 +55,32 @@
 	"ui.h"
 	"rlutil.h"
 
+1601305701 source:c:\users\tivit\documents\github\utn-repositorio\interfazc++\main.cpp
+	<iostream>
+	<iomanip>
+	"rlutil.h"
+	"ui.h"
+
+1601305701 c:\users\tivit\documents\github\utn-repositorio\interfazc++\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1601305701 c:\users\tivit\documents\github\utn-repositorio\interfazc++\ui.h
+
+1601305701 source:c:\users\tivit\documents\github\utn-repositorio\interfazc++\ui.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+

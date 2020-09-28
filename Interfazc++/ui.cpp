@@ -68,7 +68,7 @@ void delline(int line, int foreColor, int backColor){
 }
 /// COPIAR FUNCION Y EDITAR LOS DATOS A MOSTRAR
 void listarPlanilla(){
-    int ancho =10;
+    int ancho =10; // Determina el ancho de cada columna
     cls();
     title("LISTAR PLANILLA", APP_TITLEFORECOLOR, APP_TITLEBACKCOLOR);
     gotoxy(1, 5);
