@@ -13,10 +13,8 @@ void punto1(){
         return;
     }
     while(fread(&reg,sizeof reg, 1, p)==1){
-        if(reg.instrumento == 2){
-            if(reg.claustro == 1){
-                contar++;
-            }
+        if(reg.instrumento == 2 && reg.claustro == 1){
+            contar++;
         }
     }
     fclose(p);
