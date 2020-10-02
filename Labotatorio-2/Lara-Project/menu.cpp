@@ -5,6 +5,7 @@ using namespace std;
 #include "ui.h"
 #include "rlutil.h"
 #include "menu.h"
+#include "usuario.h"
 using namespace rlutil;
 
 // MENU PRINCIPAL
@@ -68,7 +69,7 @@ void menuUsuarios()
 
         switch(pos){
             case 1:
-                //menuUsuarios();
+                //nuevoUsuarios();
             break;
             case 2:
                 //menuEntrenamientos();
