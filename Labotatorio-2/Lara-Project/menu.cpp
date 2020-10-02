@@ -37,7 +37,7 @@ void menuPrincipal()
                 //menuReportes();
             break;
             case 4:
-                //menuConfiguracion();
+                menuConfiguracion();
             break;
             case 0:
                 return;
@@ -118,6 +118,37 @@ void menuEntrenamientos()
             break;
             case 4:
                 //menuConfiguracion();
+            break;
+            case 0:
+                return;
+            break;
+        }
+    }
+}
+
+// MENU CONFIGURACION
+void menuConfiguracion()
+{
+
+    while(true){
+        cls(); // Elimina lo que hay en la pantalla
+        //Ingresar el titulo como ejemplo, colores definidos en ui.h
+        title("MENÚ CONFIGURACIÓN", APP_TITLEFORECOLOR, APP_TITLEBACKCOLOR);
+        gotoxy(1, 5); //Indica la posicion despues del titulo, 1 = COLUMNA , 5 FILA
+        cout << "1) REALIZAR COPIA DE SEGURIDAD" << endl;
+        cout << "2) RESTAURAR COPIA DE SEGURIDAD" << endl;
+        cout << "------------------" << endl;
+        cout << "0) VOLVER AL MENÚ PRINCIPAL" << endl;
+        int pos;
+        cout << endl << "> ";
+        cin >> pos;
+
+        switch(pos){
+            case 1:
+                //menuUsuarios();
+            break;
+            case 2:
+                //menuEntrenamientos();
             break;
             case 0:
                 return;
