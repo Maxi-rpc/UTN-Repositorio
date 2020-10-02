@@ -1,8 +1,9 @@
 #include <iostream>
 using namespace std;
 #include <iomanip>
-#include "rlutil.h"
+#include <cstring>
 #include "ui.h"
+#include "rlutil.h"
 using namespace rlutil;
 
 int main()
