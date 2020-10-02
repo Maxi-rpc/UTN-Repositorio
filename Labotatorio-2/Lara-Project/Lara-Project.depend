@@ -1,8 +1,13 @@
 # depslib dependency file v1.0
-1584205420 source:c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\lara-project\main.cpp
+1601663533 source:c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\lara-project\main.cpp
 	<iostream>
+	<iomanip>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+	"menu.h"
 
-1601658046 source:c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\lara-project\ui.cpp
+1601663533 source:c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\lara-project\ui.cpp
 	<iostream>
 	<iomanip>
 	<cstring>
@@ -24,4 +29,14 @@
 	<sys/ioctl.h>
 	<sys/types.h>
 	<sys/time.h>
+
+1601663182 c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\lara-project\menu.h
+
+1601663224 source:c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\lara-project\menu.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+	"menu.h"
 

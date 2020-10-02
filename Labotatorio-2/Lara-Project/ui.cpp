@@ -86,3 +86,12 @@ void listarPlanilla(){
     msj("Presione cualquier tecla para salir", rlutil::WHITE, rlutil::MAGENTA);
     return;
 }
+
+// msj se muestra abajo a la izquierda, colores en rlutil.h - texto, color letra, color fondo
+/// msj("Guardado con exito!", rlutil::WHITE, rlutil::GREEN);
+
+// msj se muestra abajo a la izquierda, colores en rlutil.h - texto, color letra, color fondo
+/// msj("No se pudo guardar", rlutil::WHITE, rlutil::RED);
+
+// msj se muestra abajo a la izquierda, colores en rlutil.h - texto, color letra, color fondo
+/// msj("Mensaje de advertencia", rlutil::WHITE, rlutil::MAGENTA);

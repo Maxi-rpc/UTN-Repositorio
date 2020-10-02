@@ -4,9 +4,10 @@
 using namespace std;
 #include "ui.h"
 #include "rlutil.h"
+#include "menu.h"
+using namespace rlutil;
+
 int main()
 {
-    initUI();
-    cout << "Hello world!" << endl;
-    return 0;
+    menuPrincipal();
 }
