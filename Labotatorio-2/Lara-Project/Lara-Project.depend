@@ -40,3 +40,36 @@
 	"rlutil.h"
 	"menu.h"
 
+1601679728 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\lara-project\main.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+	"menu.h"
+
+1601679728 c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\lara-project\ui.h
+
+1601679728 c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\lara-project\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1601679728 c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\lara-project\menu.h
+
+1601679728 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\lara-project\ui.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+

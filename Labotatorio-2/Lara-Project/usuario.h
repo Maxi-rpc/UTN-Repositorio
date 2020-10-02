@@ -18,5 +18,6 @@ struct Usuario{
 };
 
 Usuario nuevoUsuarios(); // Carga los datos de un usuario nuevo
+Fecha cargarFechaUsuario(Fecha); // Carga la fecha de Usuario
 
 #endif // USUARIO_H_INCLUDED

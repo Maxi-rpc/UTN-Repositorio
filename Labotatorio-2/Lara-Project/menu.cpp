@@ -69,7 +69,7 @@ void menuUsuarios()
 
         switch(pos){
             case 1:
-                //nuevoUsuarios();
+                nuevoUsuarios();
             break;
             case 2:
                 //menuEntrenamientos();
