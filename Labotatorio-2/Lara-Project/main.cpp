@@ -9,5 +9,6 @@ using namespace rlutil;
 
 int main()
 {
+    initUI(); // INICIA UI, NECESARIO
     menuPrincipal();
 }
