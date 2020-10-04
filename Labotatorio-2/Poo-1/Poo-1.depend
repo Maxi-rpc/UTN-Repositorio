@@ -1,4 +1,31 @@
 # depslib dependency file v1.0
-1601762541 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo-1\main.cpp
+1601770833 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo-1\main.cpp
 	<iostream>
+	<iomanip>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+
+1601763459 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo-1\ui.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+
+1601763459 c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo-1\ui.h
+
+1601763459 c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo-1\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
 
