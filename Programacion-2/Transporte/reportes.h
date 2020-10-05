@@ -163,7 +163,27 @@ void mostrarConsumoMesMarca(float combustibleMesMarca[12][10]){
 }
 
 void cantKmRecorridosTNacional(){
+    float totalKm=0;
+    empresa emp;
+    viaje viaj;
+    char codEmp[5];
+    FILE *e = fopen("empresas.dat", "rb");
+    if(e==NULL){
+        cout << "ERROR DE ARCHIVO" << endl;
+    }
 
+    FILE *v = fopen("viajes.dat", "rb");
+    if(v==NULL){
+        cout << "ERROR DE ARCHIVO" << endl;
+    }
+
+    while(fread(&emp,sizeof emp, 1, p)==1){
+        if(emp.tipoEmpresa == 3){
+
+        }
+    }
+    fclose(e);
+    fclose(v);
 
 }
 
