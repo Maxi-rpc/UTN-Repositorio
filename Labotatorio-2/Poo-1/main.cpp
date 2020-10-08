@@ -38,7 +38,12 @@ Botella::Botella(float cap){
 }
 
 void Botella::setLlenar(float aumentar){
-    ocupacion += aumentar;
+    if(aumentar <= capacidad){
+        ocupacion += aumentar;
+    }
+    if(ocupacion >= capacidad){
+        ocupacion = capacidad;
+    }
 }
 
 float Botella::getCapacidad(){
@@ -55,7 +60,12 @@ float Botella::getDisponibilidad(){
 }
 
 void Botella::setVaciar(float disminuir){
-    ocupacion -= disminuir;
+    if(ocupacion > 0){
+        ocupacion -= disminuir;
+    }
+    if(ocupacion <= 0){
+        ocupacion = 0;
+    }
 }
 
 void Botella::setVaciar(){
@@ -85,7 +95,6 @@ void Botella::getInfoBotella(){
     } else{cout << "SI" << endl;}
 
 }
-
 
 int main()
 {
