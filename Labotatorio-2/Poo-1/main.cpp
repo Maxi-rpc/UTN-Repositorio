@@ -5,7 +5,7 @@ using namespace std;
 #include "ui.h"
 #include "rlutil.h"
 using namespace rlutil;
-
+/// SE CREA OBJETO BOTELLA
 class Botella{
 private:
     float capacidad;
@@ -16,17 +16,20 @@ public:
     void setLlenar(float);
     void setVaciar();
     void setVaciar(float);
-    void getTapar();
-    void getDestapar();
+    void setTapar();
+    void setDestapar();
     Botella(float);
     float getCapacidad();
     float getOcupacion();
     float getDisponibilidad();
+    void getInfoBotella();
+    bool getTapada();
 };
-
+// SE CREAN METODOS
 Botella::Botella(float cap){
     capacidad = 100;
     ocupacion = 0;
+    tapada = true;
     if(cap != 0){
         capacidad = cap;
     }
@@ -38,9 +41,52 @@ void Botella::setLlenar(float aumentar){
     ocupacion += aumentar;
 }
 
+float Botella::getCapacidad(){
+    return capacidad;
+}
+
 float Botella::getOcupacion(){
     return ocupacion;
 }
+
+float Botella::getDisponibilidad(){
+    float disponibilidad = capacidad - ocupacion;
+    return disponibilidad;
+}
+
+void Botella::setVaciar(float disminuir){
+    ocupacion -= disminuir;
+}
+
+void Botella::setVaciar(){
+    ocupacion = 0;
+}
+
+void Botella::setTapar(){
+    tapada = false; ///LA BOTELLA SE TAPA
+}
+
+void Botella::setDestapar(){
+    tapada = true; ///LA BOTELLA SE DESTAPA
+}
+
+bool Botella::getTapada(){
+    return tapada;
+}
+
+void Botella::getInfoBotella(){
+    cout << "INFO DE LA BOTELLA: "<< endl;
+    cout << "CAPACIDAD: " << getCapacidad() << " ml" << endl;
+    cout << "OCUPACIÓN: " << getOcupacion() << " ml" << endl;
+    cout << "DISPONIBILIDAD: " << getDisponibilidad() << " ml" << endl;
+    cout << "TAPADA: ";
+    if(tapada){
+        cout << "NO" << endl;
+    } else{cout << "SI" << endl;}
+
+}
+
+
 int main()
 {
     initUI();
@@ -60,7 +106,7 @@ int main()
         cout << " " << endl;
         cout << "1) LLENAR (DEBE SER MENOR A LA CAPACIDAD INDICADA)" << endl;
         cout << "2) VACIAR DE A POCO" << endl;
-        cout << "3) VACIAR" << endl;
+        cout << "3) VACIAR (VACÍA POR COMPLETO)" << endl;
         cout << "4) TAPAR BOTELLA" << endl;
         cout << "5) DESTAPAR BOTELLA" << endl;
         cout << "6) VER INFO DE BOTELLA" << endl;
@@ -69,31 +115,64 @@ int main()
         int pos;
         cout << endl << "> ";
         cin >> pos;
+        cout << endl;
 
         switch(pos){
             case 1:
-                cout << "INDIQUE N° DE ml PARA AUMENTAR SU OCUPACION: "<< endl;
-                cout << endl << "> ";
-                float aumentar;
-                cin >> aumentar;
-                bot.setLlenar(aumentar);
-                cout<< "LA OCUPACIÓN ACTUAL ES: " << bot.getOcupacion() << endl;
-                anykey();
+                if(bot.getTapada() == false){
+                    msj("DESTAPAR LA BOTELLA PRIMERO", rlutil::WHITE, rlutil::RED);
+                } else {
+                    cout << "INDIQUE N° DE ml PARA AUMENTAR SU OCUPACION: "<< endl;
+                    cout << endl << "> ";
+                    float aumentar;
+                    cin >> aumentar;
+                    bot.setLlenar(aumentar);
+                    cout<< "LA OCUPACIÓN ACTUAL ES: " << bot.getOcupacion() << endl;
+                    anykey();
+                }
             break;
             case 2:
-                //menuEntrenamientos();
+                if(bot.getTapada() == false){
+                    msj("DESTAPAR LA BOTELLA PRIMERO", rlutil::WHITE, rlutil::RED);
+                } else {
+                    cout << "INDIQUE N° DE ml PARA DISMINUIR SU OCUPACION: "<< endl;
+                    cout << endl << "> ";
+                    float disminuir;
+                    cin >> disminuir;
+                    bot.setVaciar(disminuir);
+                    cout<< "LA OCUPACIÓN ACTUAL ES: " << bot.getOcupacion() << endl;
+                    anykey();
+                }
             break;
             case 3:
-                //menuReportes();
+                if(bot.getTapada() == false){
+                    msj("DESTAPAR LA BOTELLA PRIMERO", rlutil::WHITE, rlutil::RED);
+                } else {
+                    cout << "SE VACÍA POR COMPLETO EL CONTENIDO DE LA BOTELLA: "<< endl;
+                    bot.setVaciar();
+                    cout<< "LA OCUPACIÓN ACTUAL ES: " << bot.getOcupacion() << endl;
+                    anykey();
+                }
             break;
             case 4:
-                //menuConfiguracion();
+                if(bot.getTapada() == false){
+                    msj("LA BOTELLA YA ESTA TAPADA", rlutil::WHITE, rlutil::RED);
+                } else {
+                    msj("SE TAPA LA BOTELLA", rlutil::WHITE, rlutil::GREEN);
+                    bot.setTapar();
+                }
             break;
             case 5:
-                //menuConfiguracion();
+                if(bot.getTapada() == true){
+                    msj("LA BOTELLA YA ESTA DESTAPADA", rlutil::WHITE, rlutil::RED);
+                } else {
+                    msj("SE DESTAPA LA BOTELLA", rlutil::WHITE, rlutil::GREEN);
+                    bot.setDestapar();
+                }
             break;
             case 6:
-                //menuConfiguracion();
+                bot.getInfoBotella();
+                anykey();
             break;
             case 0:
                 return 0;
