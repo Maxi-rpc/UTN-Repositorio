@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1602256870 source:c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\poo2\examen.cpp
+	<iostream>
+	"examen.h"
+
+1602256870 c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\poo2\examen.h
+
+1601653421 source:c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\poo2\ui.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+
+1601653421 c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\poo2\ui.h
+
+1601305701 c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\poo2\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
