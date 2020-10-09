@@ -48,4 +48,6 @@ void msj(const char *mensaje, int foreColor = APP_FORECOLOR, int backColor = APP
 void delline(int line, int foreColor = APP_FORECOLOR, int backColor = APP_BACKCOLOR);
 void initUI();
 void listarPlanilla();
+void msjInt(const char *mensaje,int entero, int foreColor = APP_FORECOLOR, int backColor = APP_BACKCOLOR, int y = SCREEN_HEIGHT, Orientation o = TEXT_CENTER);
+void msjFloat(const char *mensaje,float dato, int foreColor = APP_FORECOLOR, int backColor = APP_BACKCOLOR, int y = SCREEN_HEIGHT, Orientation o = TEXT_CENTER);
 #endif // UI_H_INCLUDED

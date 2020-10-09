@@ -5,14 +5,14 @@
 
 1602256870 c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\poo2\examen.h
 
-1601653421 source:c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\poo2\ui.cpp
+1602258228 source:c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\poo2\ui.cpp
 	<iostream>
 	<iomanip>
 	<cstring>
 	"ui.h"
 	"rlutil.h"
 
-1601653421 c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\poo2\ui.h
+1602258228 c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\poo2\ui.h
 
 1601305701 c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\poo2\rlutil.h
 	<iostream>
@@ -27,4 +27,10 @@
 	<sys/ioctl.h>
 	<sys/types.h>
 	<sys/time.h>
+
+1602257399 source:c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\poo2\main.cpp
+	<iostream>
+	"menu.h"
+
+1602257181 c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\poo2\menu.h
 

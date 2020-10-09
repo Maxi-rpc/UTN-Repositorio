@@ -86,3 +86,31 @@ void listarPlanilla(){
     msj("Presione cualquier tecla para salir", rlutil::WHITE, rlutil::MAGENTA);
     return;
 }
+
+void msjInt(const char *mensaje, int entero, int foreColor, int backColor, int y, Orientation o){
+    bar(foreColor, backColor, y, SCREEN_WIDTH);
+    setColors(foreColor, backColor);
+
+    //TODO: Analizar la orientación
+    gotoxy(1, y);
+    cout << mensaje << " " << entero;
+    cin.ignore();
+    anykey();
+    resetColor();
+    bar(APP_FORECOLOR, APP_BACKCOLOR, y, SCREEN_WIDTH);
+    setColors(APP_FORECOLOR, APP_BACKCOLOR);
+}
+
+void msjFloat(const char *mensaje, float dato, int foreColor, int backColor, int y, Orientation o){
+    bar(foreColor, backColor, y, SCREEN_WIDTH);
+    setColors(foreColor, backColor);
+
+    //TODO: Analizar la orientación
+    gotoxy(1, y);
+    cout << mensaje << " " << dato;
+    cin.ignore();
+    anykey();
+    resetColor();
+    bar(APP_FORECOLOR, APP_BACKCOLOR, y, SCREEN_WIDTH);
+    setColors(APP_FORECOLOR, APP_BACKCOLOR);
+}
