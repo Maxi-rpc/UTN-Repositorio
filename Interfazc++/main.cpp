@@ -19,6 +19,8 @@ int main()
         cout << "2 -MENSAJE ERROR" << endl;
         cout << "3 -MENSAJE ADVERTENCIA/AVISO" << endl;
         cout << "4 -LISTAR PLANILLA" << endl;
+        cout << "5 -MENSAJE CON INT" << endl;
+        cout << "6 -MENSAJE CON FLOAT" << endl;
         cout << "------------------" << endl;
         cout << "0 - SALIR" << endl;
         int pos;
@@ -41,6 +43,14 @@ int main()
             case 4:
                 // lista la tipo planilla
                 listarPlanilla();
+            break;
+            case 5:
+                // msj se muestra abajo a la izquierda, colores en rlutil.h - texto, color letra, color fondo
+                msjInt("Mensaje con ENTERO",5, rlutil::WHITE, rlutil::MAGENTA);
+            break;
+            case 6:
+                // msj se muestra abajo a la izquierda, colores en rlutil.h - texto, color letra, color fondo
+                msjFloat("Mensaje con FLOAT",10.5, rlutil::WHITE, rlutil::MAGENTA);
             break;
             case 0:
                 return 0;

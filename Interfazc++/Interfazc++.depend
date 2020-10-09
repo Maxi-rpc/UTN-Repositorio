@@ -76,9 +76,9 @@
 	<sys/types.h>
 	<sys/time.h>
 
-1601653421 c:\users\tivit\documents\github\utn-repositorio\interfazc++\ui.h
+1602258074 c:\users\tivit\documents\github\utn-repositorio\interfazc++\ui.h
 
-1601307577 source:c:\users\tivit\documents\github\utn-repositorio\interfazc++\ui.cpp
+1602258074 source:c:\users\tivit\documents\github\utn-repositorio\interfazc++\ui.cpp
 	<iostream>
 	<iomanip>
 	<cstring>
