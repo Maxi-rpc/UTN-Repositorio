@@ -26,11 +26,12 @@
 	"rlutil.h"
 	"ui.h"
 
-1601218629 source:c:\users\maxi\documents\github\utn-repositorio\interfazc++\main.cpp
+1601679727 source:c:\users\maxi\documents\github\utn-repositorio\interfazc++\main.cpp
 	<iostream>
 	<iomanip>
-	"rlutil.h"
+	<cstring>
 	"ui.h"
+	"rlutil.h"
 
 1601212979 c:\users\maxi\documents\github\utn-repositorio\interfazc++\rlutil.h
 	<iostream>
@@ -48,7 +49,7 @@
 
 1601217559 c:\users\maxi\documents\github\utn-repositorio\interfazc++\ui.h
 
-1601218711 source:c:\users\maxi\documents\github\utn-repositorio\interfazc++\ui.cpp
+1601328366 source:c:\users\maxi\documents\github\utn-repositorio\interfazc++\ui.cpp
 	<iostream>
 	<iomanip>
 	<cstring>
