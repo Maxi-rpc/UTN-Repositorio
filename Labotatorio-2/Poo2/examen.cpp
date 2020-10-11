@@ -46,7 +46,6 @@ void Examen::cargarExamen(){
     fechaExamen.cargarFecha();
 }
 
-
 void Examen::mostrarExamen(){
     cout << "Legajo: " << legajo << endl;
     cout << "Nota: " << nota << endl;
