@@ -31,14 +31,14 @@ void Fecha::setAnio(int a){
     anio = a;
 }
 void Fecha::cargarFecha(){
-    gotoxy(1,5);
+    //gotoxy(1,5);
     cout << "Ingresar Fecha: " << endl;
     cout << ".. / .. / .... ";
-    rlutil::locate(1,6);
+    rlutil::locate(1,9);
     cin >> dia;
-    rlutil::locate(6,6);
+    rlutil::locate(6,9);
     cin >> mes;
-    rlutil::locate(11,6);
+    rlutil::locate(11,9);
     cin >> anio;
 }
 void Fecha::mostrarFecha(){
