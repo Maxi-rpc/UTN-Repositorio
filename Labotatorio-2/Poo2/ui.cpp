@@ -114,3 +114,23 @@ void msjFloat(const char *mensaje, float dato, int foreColor, int backColor, int
     bar(APP_FORECOLOR, APP_BACKCOLOR, y, SCREEN_WIDTH);
     setColors(APP_FORECOLOR, APP_BACKCOLOR);
 }
+
+void titleInt(const char *mensaje, int entero, int foreColor, int backColor){
+    bar(foreColor, backColor, 1, SCREEN_WIDTH);
+    setColors(foreColor, backColor);
+    int centro = (SCREEN_WIDTH - strlen(mensaje))/2;
+    gotoxy(centro, 1);
+    cout << mensaje << " " << entero;
+    resetColor();
+    setColors(APP_FORECOLOR, APP_BACKCOLOR);
+}
+
+void titleFloat(const char *mensaje, float dato, int foreColor, int backColor){
+    bar(foreColor, backColor, 1, SCREEN_WIDTH);
+    setColors(foreColor, backColor);
+    int centro = (SCREEN_WIDTH - strlen(mensaje))/2;
+    gotoxy(centro, 1);
+    cout << mensaje << " " << dato;
+    resetColor();
+    setColors(APP_FORECOLOR, APP_BACKCOLOR);
+}
