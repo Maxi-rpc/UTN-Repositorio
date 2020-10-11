@@ -13,8 +13,13 @@ private:
 public:
     int getLegajo();
     float getNota();
-    Fecha getFechaExamen();
     int getTipo();
+    Fecha getFechaExamen();
+    void setLegajo(int l);
+    void setNota(float n);
+    void setTipo(int t);
+    void cargarExamen();
+    void mostrarExamen();
 };
 
 #endif // EXAMEN_H_INCLUDED
