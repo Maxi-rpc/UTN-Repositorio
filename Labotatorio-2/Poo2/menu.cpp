@@ -5,6 +5,7 @@ using namespace std;
 #include "ui.h"
 using namespace rlutil;
 #include "menu.h"
+#include "examen.h"
 
 void menuPrincipal(){
     initUI();
@@ -24,7 +25,7 @@ void menuPrincipal(){
       system("cls");
       switch(opc){
         case 1:
-            //menuEmpresas();
+            menuCargarExamen();
         break;
         case 2:
             //menuViajes();
@@ -42,4 +43,12 @@ void menuPrincipal(){
       system("pause");
     }
     return;
+}
+
+void menuCargarExamen(){
+    Examen e;
+    system("cls");
+    title("CARGAR EXAMEN", APP_TITLEFORECOLOR, APP_TITLEBACKCOLOR);
+    gotoxy(1,5);
+    e.cargarExamen();
 }

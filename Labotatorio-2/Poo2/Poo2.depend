@@ -34,7 +34,7 @@
 
 1602257181 c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\poo2\menu.h
 
-1602450847 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\examen.cpp
+1602452223 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\examen.cpp
 	<iostream>
 	"rlutil.h"
 	"ui.h"
@@ -43,20 +43,20 @@
 1602449498 c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\examen.h
 	"fecha.h"
 
-1602372584 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\main.cpp
+1602452223 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\main.cpp
 	<iostream>
 	"menu.h"
-	"fecha.h"
 
-1602368821 c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\menu.h
+1602455249 c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\menu.h
 
-1602368821 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\menu.cpp
+1602455276 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\menu.cpp
 	<iostream>
 	"rlutil.h"
 	"ui.h"
 	"menu.h"
+	"examen.h"
 
-1602368821 c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\rlutil.h
+1601212979 c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\rlutil.h
 	<iostream>
 	<string>
 	<cstdio>
@@ -70,9 +70,9 @@
 	<sys/types.h>
 	<sys/time.h>
 
-1602368821 c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\ui.h
+1602454446 c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\ui.h
 
-1602368821 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\ui.cpp
+1602454510 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\ui.cpp
 	<iostream>
 	<iomanip>
 	<cstring>
@@ -86,4 +86,14 @@
 	"rlutil.h"
 	"ui.h"
 	"fecha.h"
+
+1602453262 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\archivo.cpp
+	<iostream>
+	"rlutil.h"
+	"ui.h"
+	"archivo.h"
+
+1602452301 c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\archivo.h
+	"fecha.h"
+	"examen.h"
 
