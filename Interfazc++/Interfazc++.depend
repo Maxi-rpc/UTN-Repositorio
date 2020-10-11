@@ -26,7 +26,7 @@
 	"rlutil.h"
 	"ui.h"
 
-1601679727 source:c:\users\maxi\documents\github\utn-repositorio\interfazc++\main.cpp
+1602454056 source:c:\users\maxi\documents\github\utn-repositorio\interfazc++\main.cpp
 	<iostream>
 	<iomanip>
 	<cstring>
@@ -47,9 +47,9 @@
 	<sys/types.h>
 	<sys/time.h>
 
-1601217559 c:\users\maxi\documents\github\utn-repositorio\interfazc++\ui.h
+1602454446 c:\users\maxi\documents\github\utn-repositorio\interfazc++\ui.h
 
-1601328366 source:c:\users\maxi\documents\github\utn-repositorio\interfazc++\ui.cpp
+1602454510 source:c:\users\maxi\documents\github\utn-repositorio\interfazc++\ui.cpp
 	<iostream>
 	<iomanip>
 	<cstring>
