@@ -28,7 +28,7 @@ void menuPrincipal(){
             menuCargarExamen();
         break;
         case 2:
-            //menuViajes();
+            listarExamenes();
         break;
         case 3:
             //menuReportes();
@@ -51,4 +51,24 @@ void menuCargarExamen(){
     title("CARGAR EXAMEN", APP_TITLEFORECOLOR, APP_TITLEBACKCOLOR);
     gotoxy(1,5);
     e.cargarExamen();
+}
+
+void listarExamenes(){
+    Examen e;
+    int ancho =10; // Determina el ancho de cada columna
+    cls();
+    title("LISTAR EXÁMENES", APP_TITLEFORECOLOR, APP_TITLEBACKCOLOR);
+    gotoxy(1, 5);
+    cout << left;
+    cout << setw(ancho) << "FECHA" << setw(ancho) << "LEGAJO" << setw(ancho) << "NOTA" << setw(ancho) << "TIPO";
+    cout << endl << "----------------------------------------------------------------------------" << endl;
+    for(int i = 0; i<2; i++){
+        cout << setw(ancho) << e.fechaExamen.getDia()<<"/"<<e.fechaExamen.getMes()<<"/"<<e.fechaExamen.getAnio;
+        cout << setw(ancho) << e.getLegajo();
+        cout << setw(ancho) << e.getNota();
+        cout << setw(ancho) << e.getTipo();
+        cout << endl << "----------------------------------------------------------------------------" << endl;
+    }
+    msj("Presione cualquier tecla para salir", rlutil::WHITE, rlutil::MAGENTA);
+    return;
 }
