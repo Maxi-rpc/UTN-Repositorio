@@ -18,8 +18,10 @@ public:
     void setLegajo(int l);
     void setNota(float n);
     void setTipo(int t);
+    void setFecha(Fecha);
     void cargarExamen();
     void mostrarExamen();
+    bool grabarEnDisco(int pos);
 };
 
 #endif // EXAMEN_H_INCLUDED

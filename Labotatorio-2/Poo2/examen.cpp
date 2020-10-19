@@ -35,6 +35,9 @@ void Examen::setNota(float n){
 void Examen::setTipo(int t){
     tipo = t;
 }
+void Examen::setFecha(Fecha f){
+    fechaExamen = f;
+}
 
 void Examen::cargarExamen(){
     cout << "Ingresar Legajo: ";
@@ -51,4 +54,16 @@ void Examen::mostrarExamen(){
     cout << "Nota: " << nota << endl;
     cout << "Tipo: " << tipo << endl;
     fechaExamen.mostrarFecha();
+}
+
+bool Examen::grabarEnDisco(int pos){
+    bool guardo;
+    FILE *f = fopen("datos\archivo.dat", "ab");
+    if(f == NULL){
+        cout << "No se puede guardar.";
+        return false;
+    }
+    guardo = fwrite(this, sizeof(Examen), 1, f);
+    fclose(f);
+    return guardo;
 }

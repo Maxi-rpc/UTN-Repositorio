@@ -47,10 +47,11 @@
 	<iostream>
 	"menu.h"
 
-1602455249 c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\menu.h
+1602457322 c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\menu.h
 
-1602455276 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\menu.cpp
+1603144746 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\menu.cpp
 	<iostream>
+	<iomanip>
 	"rlutil.h"
 	"ui.h"
 	"menu.h"

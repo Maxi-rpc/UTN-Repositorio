@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <iomanip>
 using namespace std;
 #include "rlutil.h"
 #include "ui.h"
@@ -28,7 +28,7 @@ void menuPrincipal(){
             menuCargarExamen();
         break;
         case 2:
-            listarExamenes();
+            //listarExamenes();
         break;
         case 3:
             //menuReportes();
@@ -53,6 +53,7 @@ void menuCargarExamen(){
     e.cargarExamen();
 }
 
+/*
 void listarExamenes(){
     Examen e;
     int ancho =10; // Determina el ancho de cada columna
@@ -72,3 +73,4 @@ void listarExamenes(){
     msj("Presione cualquier tecla para salir", rlutil::WHITE, rlutil::MAGENTA);
     return;
 }
+*/
