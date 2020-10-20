@@ -21,6 +21,7 @@ void menuPrincipal(){
       cout << "4) REPORTE 2: PROMEDIO DE NOTAS POR TIPO" << endl;
       cout << "-------------------------" << endl;
       cout << "0) SALIR" << endl;
+      cout << "> ";
       cin>>opc;
       system("cls");
       switch(opc){
@@ -28,10 +29,13 @@ void menuPrincipal(){
             menuCargarExamen();
         break;
         case 2:
-            //listarExamenes();
+            listarExamenes();
         break;
         case 3:
-            //menuReportes();
+            //menuReportes1();
+        break;
+        case 4:
+            //menuReportes2();
         break;
         case 0:
             return;
@@ -48,23 +52,36 @@ void menuPrincipal(){
 void menuCargarExamen(){
     Examen e;
     system("cls");
-    title("CARGAR EXAMEN", APP_TITLEFORECOLOR, APP_TITLEBACKCOLOR);
+    title("CARGAR EXAMEN");
     gotoxy(1,5);
+
     e.cargarExamen();
+    if(e.grabarEnDisco()){
+        msj("GRABO en disco", rlutil::WHITE, rlutil::GREEN);
+    }
+    else{
+        msj("NO GRABO en disco", rlutil::WHITE, rlutil::RED);
+    }
 }
 
-/*
+
 void listarExamenes(){
     Examen e;
+    int i = 0;
     int ancho =10; // Determina el ancho de cada columna
     cls();
-    title("LISTAR EXÁMENES", APP_TITLEFORECOLOR, APP_TITLEBACKCOLOR);
+    title("LISTAR EXÁMENES");
     gotoxy(1, 5);
     cout << left;
-    cout << setw(ancho) << "FECHA" << setw(ancho) << "LEGAJO" << setw(ancho) << "NOTA" << setw(ancho) << "TIPO";
+    cout << setw(12) << "FECHA" << setw(ancho) << "LEGAJO" << setw(ancho) << "NOTA" << setw(ancho) << "TIPO";
     cout << endl << "----------------------------------------------------------------------------" << endl;
-    for(int i = 0; i<2; i++){
-        cout << setw(ancho) << e.fechaExamen.getDia()<<"/"<<e.fechaExamen.getMes()<<"/"<<e.fechaExamen.getAnio;
+    while(e.leerDeDisco(i++)){
+        cout << setw(2) << e.getFechaExamen().getDia();
+        cout << "/";
+        cout << setw(2) << e.getFechaExamen().getMes();
+        cout << "/";
+        cout << setw(6) << e.getFechaExamen().getAnio();
+
         cout << setw(ancho) << e.getLegajo();
         cout << setw(ancho) << e.getNota();
         cout << setw(ancho) << e.getTipo();
@@ -73,4 +90,7 @@ void listarExamenes(){
     msj("Presione cualquier tecla para salir", rlutil::WHITE, rlutil::MAGENTA);
     return;
 }
-*/
+
+void menuReportes1(){
+
+}

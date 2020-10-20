@@ -34,13 +34,13 @@
 
 1602257181 c:\users\tivit\documents\github\utn-repositorio\labotatorio-2\poo2\menu.h
 
-1602452223 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\examen.cpp
+1603154873 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\examen.cpp
 	<iostream>
 	"rlutil.h"
 	"ui.h"
 	"examen.h"
 
-1602449498 c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\examen.h
+1603155082 c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\examen.h
 	"fecha.h"
 
 1602452223 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\main.cpp
@@ -49,7 +49,7 @@
 
 1602457322 c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\menu.h
 
-1603144746 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\menu.cpp
+1603156337 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\menu.cpp
 	<iostream>
 	<iomanip>
 	"rlutil.h"
@@ -73,7 +73,7 @@
 
 1602454446 c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\ui.h
 
-1602454510 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\ui.cpp
+1603156374 source:c:\users\maxi\documents\github\utn-repositorio\labotatorio-2\poo2\ui.cpp
 	<iostream>
 	<iomanip>
 	<cstring>

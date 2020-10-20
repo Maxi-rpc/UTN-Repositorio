@@ -24,6 +24,7 @@ Fecha Examen::getFechaExamen(){
     return fechaExamen;
 }
 
+// SE CREAN COMPORTAMIENTOS SET
 void Examen::setLegajo(int l){
     legajo = l;
 }
@@ -58,12 +59,37 @@ void Examen::mostrarExamen(){
 
 bool Examen::grabarEnDisco(int pos){
     bool guardo;
-    FILE *f = fopen("datos\archivo.dat", "ab");
-    if(f == NULL){
-        cout << "No se puede guardar.";
-        return false;
+    FILE *f;
+    if(pos == -1){
+        f = fopen("datos/archivo.dat", "ab");
+        if(f == NULL){
+            cout << "No se puede guardar.";
+            return false;
+        }
+    }
+    else{
+        f = fopen("datos/archivo.dat", "rb+");
+        if(f == NULL){
+            cout << "No se puede guardar.";
+            return false;
+        }
+        fseek(f, pos * sizeof(Examen), 0);
     }
     guardo = fwrite(this, sizeof(Examen), 1, f);
     fclose(f);
     return guardo;
+}
+
+bool Examen::leerDeDisco(int pos){
+    bool leer;
+    FILE *f = fopen("datos/archivo.dat", "rb");
+
+    if(f == NULL){
+        cout << "No se puede leer.";
+        return false;
+    }
+    fseek(f, pos * sizeof(Examen), 0);
+    leer = fread(this, sizeof(Examen), 1, f);
+    fclose(f);
+    return leer;
 }
