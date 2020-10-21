@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 #include <iomanip>
 #include <cstring>
@@ -134,3 +134,4 @@ void titleFloat(const char *mensaje, float dato, int foreColor, int backColor){
     resetColor();
     setColors(APP_FORECOLOR, APP_BACKCOLOR);
 }
+*/

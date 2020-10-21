@@ -14,7 +14,7 @@ int main()
         //Ingresar el titulo como ejemplo, colores definidos en ui.h
         title("MENU PRINCIPAL", APP_TITLEFORECOLOR, APP_TITLEBACKCOLOR);
         gotoxy(1, 5); //Indica la posicion despues del titulo, 1 = COLUMNA , 5 FILA
-        cout << "Bienvenido a la interfaz de Consola, aca 2 ejemplos" << endl;
+        cout << "Bienvenido a la interfaz de Consola, aca 6 ejemplos" << endl;
         cout << "1 -MENSAJE EXITO " << endl;
         cout << "2 -MENSAJE ERROR" << endl;
         cout << "3 -MENSAJE ADVERTENCIA/AVISO" << endl;
