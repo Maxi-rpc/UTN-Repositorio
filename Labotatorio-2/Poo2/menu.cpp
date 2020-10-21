@@ -32,10 +32,10 @@ void menuPrincipal(){
             listarExamenes();
         break;
         case 3:
-            //menuReportes1();
+            menuReportes1();
         break;
         case 4:
-            //menuReportes2();
+            menuReportes2();
         break;
         case 0:
             return;
@@ -67,7 +67,10 @@ void menuCargarExamen(){
 
 void listarExamenes(){
     Examen e;
-    int i = 0;
+
+    string tipos[3]{"Parcial","Trabajo Práctico","Final"};
+
+    int i=0;
     int ancho =10; // Determina el ancho de cada columna
     cls();
     title("LISTAR EXÁMENES");
@@ -84,13 +87,92 @@ void listarExamenes(){
 
         cout << setw(ancho) << e.getLegajo();
         cout << setw(ancho) << e.getNota();
-        cout << setw(ancho) << e.getTipo();
-        cout << endl << "----------------------------------------------------------------------------" << endl;
+        cout << setw(ancho) << tipos[e.getTipo()-1];
+        cout << endl;
     }
+    cout << "----------------------------------------------------------------------------" << endl;
     msj("Presione cualquier tecla para salir", rlutil::WHITE, rlutil::MAGENTA);
     return;
 }
 
 void menuReportes1(){
+    Examen e;
 
+    string mes[12]{"Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"};
+
+    int anio;
+    int i=0;
+    int ancho=20; // Determina el ancho de cada columna
+    cls();
+    title("REPORTE MENSUAL");
+    gotoxy(1, 5);
+    cout << left;
+    cout << "Ingresar Año ";
+    cout << " > ";
+    cin >> anio;
+
+    cls();
+    titleInt("REPORTE MENSUAL AÑO", anio);
+    gotoxy(1, 5);
+    cout << left;
+
+    int cant[12]={};
+    while(e.leerDeDisco(i++)){
+        if(e.getFechaExamen().getAnio() == anio){
+            if(e.getTipo() != 2){
+                cant[e.getFechaExamen().getMes()-1]++;
+            }
+        }
+    }
+
+    cout << setw(ancho) << "MES" << setw(ancho) << "CANTIDAD";
+    cout << endl << "----------------------------------------------------------------------------" << endl;
+    for(int v=0; v<12; v++){
+        cout << setw(ancho) << mes[v];
+        cout << setw(ancho) << cant[v];
+        cout << endl;
+    }
+    cout << "----------------------------------------------------------------------------" << endl;
+    msj("Presione cualquier tecla para salir", rlutil::WHITE, rlutil::MAGENTA);
+    return;
+}
+
+void menuReportes2(){
+    Examen e;
+
+    string tipos[3]{"Parcial","Trabajo Práctico","Final"};
+
+    cls();
+    title("REPORTE PROMEDIO DE NOTAS POR TIPO");
+    gotoxy(1, 5);
+    cout << left;
+
+    int i=0;
+    float prom[3]={};
+    float suma[3]={};
+    int cant[3]={};
+    while(e.leerDeDisco(i++)){
+        for(int x=0; x<3; x++){
+            if(e.getTipo() == x+1){
+                suma[x] += e.getNota();
+                cant[x]++;
+            }
+        }
+    }
+
+    for(int z=0; z<3; z++){
+        prom[z] = suma[z] / cant[z];
+    }
+
+    int ancho=20; // Determina el ancho de cada columna
+    cout << setw(ancho) << "TIPO DE EXAMEN" << setw(ancho) << "PROMEDIO";
+    cout << endl << "----------------------------------------------------------------------------" << endl;
+    for(int v=0; v<3; v++){
+        cout << setw(ancho) << tipos[v];
+        cout << setw(ancho) << prom[v];
+        cout << endl;
+    }
+    cout << "----------------------------------------------------------------------------" << endl;
+    msj("Presione cualquier tecla para salir", rlutil::WHITE, rlutil::MAGENTA);
+    return;
 }
