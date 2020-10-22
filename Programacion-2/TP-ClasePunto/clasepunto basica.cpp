@@ -117,7 +117,13 @@ void Punto::MostrarValores(){
 
 
 void punto1(){
-    Punto obj(10,5, cAZUL);
+    int x, y;
+    cout << "Indicar Eje X : ";
+    cin >> x;
+    cout << "Indicar Eje Y : ";
+    cin >> y;
+
+    Punto obj(x,y, cAZUL);
     obj.Mostrar();
 
 }

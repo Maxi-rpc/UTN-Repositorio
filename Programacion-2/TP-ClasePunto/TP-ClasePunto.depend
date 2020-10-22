@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1603378547 source:c:\users\tivit\documents\github\utn-repositorio\programacion-2\tp-clasepunto\clasepunto basica.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	<windows.h>
+	<ctime>
+
+1603380303 source:c:\users\tivit\documents\github\utn-repositorio\programacion-2\tp-clasepunto\main.cpp
+	<iostream>
+
