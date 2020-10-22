@@ -118,9 +118,9 @@ void Punto::MostrarValores(){
 
 void punto1(){
     int x, y;
-    cout << "Indicar Eje X : ";
+    cout << "INDICAR EJE X : >";
     cin >> x;
-    cout << "Indicar Eje Y : ";
+    cout << "INDICAR EJE Y : >";
     cin >> y;
 
     Punto obj(x,y, cAZUL);
@@ -128,6 +128,37 @@ void punto1(){
 
 }
 
+void punto2(){
+    int x, y;
+    cout << "SE VA A DIBUJAR UNA LINEA HORIZONTAL" << endl;
+    cout << "INIDCAR EJE Y: >";
+    cin >> y;
+    x = 80;
+
+    Punto obj(x,y, cAZUL);
+    for(int i=0; i<x; i++){
+        obj.setX(i++);
+        obj.Mostrar();
+    }
+
+
+}
+
+void punto3(){
+    int x, y;
+    cout << "SE VA A DIBUJAR UNA LINEA HORIZONTAL" << endl;
+    cout << "INIDCAR EJE X: >";
+    cin >> x;
+    y = 80;
+
+    Punto obj(x,y, cAZUL);
+    for(int i=0; i<y; i++){
+        obj.setY(i++);
+        obj.Mostrar();
+    }
+
+
+}
 
 int main() {
     int opc;
@@ -149,11 +180,10 @@ int main() {
         switch(opc){
             case 1:punto1();
                 break;
-
-            case 2:
+            case 2:punto2();
                 break;
 
-            case 3:
+            case 3:punto3();
                 break;
 
             case 4:
