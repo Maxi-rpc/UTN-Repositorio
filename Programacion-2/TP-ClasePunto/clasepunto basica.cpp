@@ -130,7 +130,7 @@ void punto1(){
 
 void punto2(){
     int x, y;
-    cout << "SE VA A DIBUJAR UNA LINEA HORIZONTAL" << endl;
+    cout << "Dibujar una línea de puntos horizontal en una posición del eje y definida" << endl;
     cout << "INIDCAR EJE Y: >";
     cin >> y;
     x = 80;
@@ -146,18 +146,33 @@ void punto2(){
 
 void punto3(){
     int x, y;
-    cout << "SE VA A DIBUJAR UNA LINEA HORIZONTAL" << endl;
-    cout << "INIDCAR EJE X: >";
-    cin >> x;
-    y = 80;
+    cout << "Dibujar una línea de puntos vertical en una posición del eje x definida" << endl;
+    x = 50;
+    y = 10;
 
     Punto obj(x,y, cAZUL);
     for(int i=0; i<y; i++){
         obj.setY(i++);
         obj.Mostrar();
     }
+}
 
+void punto4(){
+    int x, y;
+    cout << "Dibujar una línea de puntos horizontal que alterne 2 colores." << endl;
+    x = 50;
+    y = 10;
 
+    Punto obj(x,y, cAZUL);
+    for(int i=0; i<x; i++){
+        obj.setX(i);
+        obj.setColor(cAZUL);
+        if(i%2 == 0){
+            obj.setColor(cROJO);
+        }
+        obj.Mostrar();
+
+    }
 }
 
 int main() {
@@ -185,8 +200,7 @@ int main() {
 
             case 3:punto3();
                 break;
-
-            case 4:
+            case 4:punto4();
                 break;
             case 5:
                 break;
