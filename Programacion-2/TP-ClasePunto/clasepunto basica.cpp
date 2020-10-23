@@ -137,7 +137,7 @@ void punto2(){
 
     Punto obj(x,y, cAZUL);
     for(int i=0; i<x; i++){
-        obj.setX(i++);
+        obj.setX(i);
         obj.Mostrar();
     }
 
@@ -152,7 +152,7 @@ void punto3(){
 
     Punto obj(x,y, cAZUL);
     for(int i=0; i<y; i++){
-        obj.setY(i++);
+        obj.setY(i);
         obj.Mostrar();
     }
 }
@@ -166,6 +166,24 @@ void punto4(){
     Punto obj(x,y, cAZUL);
     for(int i=0; i<x; i++){
         obj.setX(i);
+        obj.setColor(cAZUL);
+        if(i%2 == 0){
+            obj.setColor(cROJO);
+        }
+        obj.Mostrar();
+
+    }
+}
+
+void punto5(){
+    int x, y;
+    cout << "Dibujar una línea de puntos vertical que alterne 2 colores." << endl;
+    x = 50;
+    y = 10;
+
+    Punto obj(x,y, cAZUL);
+    for(int i=0; i<y; i++){
+        obj.setY(i);
         obj.setColor(cAZUL);
         if(i%2 == 0){
             obj.setColor(cROJO);
@@ -202,7 +220,7 @@ int main() {
                 break;
             case 4:punto4();
                 break;
-            case 5:
+            case 5:punto5();
                 break;
 //            case 6:punto8();
                 break;
