@@ -14,6 +14,11 @@ public:
     int getDia(){return dia;};
     int getMes(){return mes;};
     int getAnio(){return anio;};
+    Fecha {
+        dia = 0;
+        mes = 0;
+        anio = 0;
+    }
 };
 
 void Fecha::setFecha(int d, int m, int a){
@@ -47,6 +52,12 @@ public:
     bool escribirDisco();
     int leerDisco(int pos);
     int cantInstructores();
+    Instructor(){
+        dni = 0;
+        codNacionalidad = 0;
+        nivel = 0;
+        fechaNacimiento; // seteado en Fecha
+    }
 };
 void Instructor::setDni(int d){
     dni = d;
