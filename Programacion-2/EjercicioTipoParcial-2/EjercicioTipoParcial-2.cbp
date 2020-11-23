@@ -35,6 +35,8 @@
 		<Unit filename="ciudad.cpp" />
 		<Unit filename="ciudad.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="medicion.cpp" />
+		<Unit filename="medicion.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
