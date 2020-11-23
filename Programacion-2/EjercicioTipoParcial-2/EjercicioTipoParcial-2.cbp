@@ -34,6 +34,8 @@
 		</Compiler>
 		<Unit filename="ciudad.cpp" />
 		<Unit filename="ciudad.h" />
+		<Unit filename="fecha.cpp" />
+		<Unit filename="fecha.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="medicion.cpp" />
 		<Unit filename="medicion.h" />
