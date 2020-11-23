@@ -232,7 +232,7 @@ void puntoB();
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    cout << "Hello world! PARCIAL 2" << endl;
 
     puntoA();
     puntoB();
