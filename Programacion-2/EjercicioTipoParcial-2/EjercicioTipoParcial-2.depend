@@ -4,3 +4,21 @@
 
 1606165913 source:c:\users\maxi\documents\github\utn-repositorio\programacion-2\ejerciciotipoparcial-2\medicion.cpp
 
+1606166026 source:c:\users\maxi\documents\github\utn-repositorio\programacion-2\ejerciciotipoparcial-2\ciudad.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<string.h>
+	"ciudad.h"
+
+1606165527 c:\users\maxi\documents\github\utn-repositorio\programacion-2\ejerciciotipoparcial-2\ciudad.h
+
+1606167659 source:c:\users\maxi\documents\github\utn-repositorio\programacion-2\ejerciciotipoparcial-2\fecha.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<string.h>
+	"fecha.h"
+
+1606167481 c:\users\maxi\documents\github\utn-repositorio\programacion-2\ejerciciotipoparcial-2\fecha.h
+
