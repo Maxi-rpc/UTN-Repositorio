@@ -33,11 +33,7 @@ struct inscripcion{
   bool estado;
 };
 
-void punto1();
-void punto2();
-int contarSesionMesAgosto(int instrumento);
-bool grabarPunto2(puntos2);
-int contarSesion(int dni);
+// RESOLUCION DE MODELO DE PARCIAL 1
 
 struct puntos2{
     int dniMusico;
@@ -46,4 +42,9 @@ struct puntos2{
     int sesiones;
 };
 
+void punto1();
+void punto2();
+int contarSesionMesAgosto(int instrumento);
+bool grabarPunto2(puntos2);
+int contarSesion(int dni);
 #endif // TIPOS_H_INCLUDED

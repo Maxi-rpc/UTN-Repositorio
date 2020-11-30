@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+#include "tipos.h"
 int main(){
     int opc;
     while(true){
@@ -16,9 +16,9 @@ int main(){
       cin>>opc;
       system("cls");
       switch(opc){
-        case 1: //menuEmpresas();
+        case 1: punto1();
                 break;
-        case 2: //menuViajes();
+        case 2: punto2();
                 break;
         case 0: return 0;
                 break;

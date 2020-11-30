@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <string.h>
 using namespace std;
 #include "tipos.h"
 
@@ -20,10 +20,11 @@ void punto2(){
     musico reg;
     FILE *f = fopen("Musicos.dat", "rb");
     if(f == NULL){
-        return -1;
+        cout << "ERROR AL ABRIR Musicos.dat";
+        return;
     }
     while(fread(&reg, sizeof(musico), 1, f)){
-        strcpy(aux.dniMusico, reg.dni); //se copia en - desde
+        aux.dniMusico = reg.dni;
         strcpy(aux.nombreMusico, reg.nombreMusico);
         strcpy(aux.apellidoMusico, reg.apellidoMusico);
         aux.sesiones = contarSesion(aux.dniMusico);
