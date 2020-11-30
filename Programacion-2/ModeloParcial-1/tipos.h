@@ -35,8 +35,9 @@ struct inscripcion{
 
 void punto1();
 void punto2();
-int contarSesion(musico reg);
-bool grabarPunto2(puntos2 aux);
+int contarSesionMesAgosto(int instrumento);
+bool grabarPunto2(puntos2);
+int contarSesion(int dni);
 
 struct puntos2{
     int dniMusico;
