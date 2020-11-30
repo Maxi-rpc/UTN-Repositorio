@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1606778250 source:c:\users\maxi\documents\github\utn-repositorio\programacion-2\recuperatorio-1\main.cpp
+	<iostream>
+	<string.h>
+
