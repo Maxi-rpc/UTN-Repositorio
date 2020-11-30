@@ -132,10 +132,10 @@ void puntoDos(){
     cout << "LAS ESPECIALIDAD CON MAS DE 50 DEPORTISTAS: " << endl;
     for(especialidades; especialidades<11; especialidades++){
         deportistas = contarEsp(especialidades);
-        //if(deportistas > 50){
+        if(deportistas > 50){
             cout << esp[especialidades-1] << "," << deportistas << endl;
             cout << "-----------" << endl;
-        //}
+        }
     }
 }
 
