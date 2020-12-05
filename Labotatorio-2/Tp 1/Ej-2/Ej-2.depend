@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1596915889 source:c:\users\maxi\desktop\programación\lab ii\tp 1\ej 2\ej-2\funciones.cpp
+	<iostream>
+	"funciones.h"
+
+1596915889 c:\users\maxi\desktop\programación\lab ii\tp 1\ej 2\ej-2\funciones.h
+
+1596915889 source:c:\users\maxi\desktop\programación\lab ii\tp 1\ej 2\ej-2\main.cpp
+	<iostream>
+	"funciones.h"
+

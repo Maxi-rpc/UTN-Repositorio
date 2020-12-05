@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1599349566 source:c:\users\maxi\desktop\programación\lab ii\tp 2 estructuras\ej-1\pelicula.cpp
+	<iostream>
+	"strPelicula.h"
+
+1599349553 c:\users\maxi\desktop\programación\lab ii\tp 2 estructuras\ej-1\strpelicula.h
+
+1599349621 source:c:\users\maxi\desktop\programación\lab ii\tp 2 estructuras\ej-1\main.cpp
+	<iostream>
+	"strPelicula.h"
+
