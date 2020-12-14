@@ -131,7 +131,7 @@ float sumaTodoPrestamo(char *cuit){
 	int pos=0, suma=0;
 	Prestamo p;
 	while(p.leerDisco(pos)==1){
-		if(strcmp(cuit,p.getCuitCliente()){
+		if(strcmp(cuit,p.getCuitCliente())==0){
             suma += p.getImpCred();
 		}
 		pos++;
