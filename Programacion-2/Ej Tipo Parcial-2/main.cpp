@@ -177,9 +177,17 @@ void puntoB(){
 }
 
 void MamiferoTerrestre::cargarDatos(){
-
+    cout << "INGRESAR LOS SIGUIENTES DATOS:" << endl;
+    Mamifero.cargarDatos();
+    cout << "CANTIDAD DE PATAS:";
+    cin >> cantPatas;
+    cout << "VELOCIDAD DE DESPLAZAMIENTO:";
+    cin >> velocidadDes;
 }
 
 void MamiferoTerrestre::mostrarDatos(){
-
+    cout << "MAMIFERO TERRESTRE:" << endl;
+    Mamifero.mostrarDatos();
+    cout << "CANTIDAD DE PATAS:" << cantPatas << endl;
+    cout << "VELOCIDAD DE DESPLAZAMIENTO:" << velocidadDes << endl;
 }
