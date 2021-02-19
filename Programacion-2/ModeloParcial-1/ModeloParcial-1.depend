@@ -8,3 +8,14 @@
 
 1606758373 c:\users\tivit\documents\github\utn-repositorio\programacion-2\modeloparcial-1\tipos.h
 
+1607180765 source:c:\users\max\documents\github\utn-repositorio\programacion-2\modeloparcial-1\main.cpp
+	<iostream>
+	"tipos.h"
+
+1607180765 c:\users\max\documents\github\utn-repositorio\programacion-2\modeloparcial-1\tipos.h
+
+1607180765 source:c:\users\max\documents\github\utn-repositorio\programacion-2\modeloparcial-1\punto1.cpp
+	<iostream>
+	<string.h>
+	"tipos.h"
+
