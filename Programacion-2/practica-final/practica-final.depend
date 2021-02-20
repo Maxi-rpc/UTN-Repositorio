@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1613697572 source:c:\users\max\documents\github\utn-repositorio\programacion-2\practica-final\main.cpp
+	<iostream>
+	<cstring>
+	"ejTipoParcial_2_Rutas.h"
+
+1613775132 c:\users\max\documents\github\utn-repositorio\programacion-2\practica-final\ejtipoparcial_2_rutas.h
+
+1613700268 source:c:\users\max\documents\github\utn-repositorio\programacion-2\practica-final\ejtipoparcial_2_rutas.cpp
+	<iostream>
+	<cstring>
+	"ejTipoParcial_2_Rutas.h"
+
