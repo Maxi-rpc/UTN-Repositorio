@@ -7,7 +7,7 @@ using namespace std;
 class Objeto{
 private:
     int num;
-    char nombre[20];
+    char nombre[10];
     bool estado;
 public:
     //Set Se guarda variable en la PROPIEDAD
@@ -38,7 +38,6 @@ int main()
     cout << endl;
 
 
-
     cout << "--------" << endl;
     return 0;
 }
@@ -51,12 +50,12 @@ int main()
 
 bool Objeto::escribirEnDisco(){
     bool guardo;
-    FILE *f = fopen("objeto.dat", "ab"); // AB PARA GUARDAR 1 NUEVO DATO EN EL ARCHIVO
+    FILE *f = fopen("objeto.dat", "ab"); // Se abre archivo
     if(f == NULL){
         cout << "No se puede guardar.";
         return false;
     }
-    guardo = fwrite(this,sizeof *this, 1, f);
+    guardo = fwrite(this,sizeof *this, 1, f); // Se escribe en el archivo
     fclose(f);
     return guardo;
 }
@@ -64,13 +63,13 @@ bool Objeto::escribirEnDisco(){
 int Objeto::leerDisco(int pos){ // Se le pasa POSICION
     int x;
 	FILE *p;
-	p=fopen("objeto.dat","rb");
+	p=fopen("objeto.dat","rb"); // Se abre archivo
 	if(p==NULL){
 		cout<<"No existe el archivo";
 		return -1;
     }
 	fseek(p,pos*sizeof *this,0);
-	x=fread(this,sizeof *this,1,p);
+	x=fread(this,sizeof *this,1,p); // Se lee el archivo
 	fclose(p);
 	return x; // Devuelve objeto
 }
@@ -78,13 +77,13 @@ int Objeto::leerDisco(int pos){ // Se le pasa POSICION
 bool Objeto::modDisco(int pos){ // Se le pasa POSICION
     bool guardo;
     FILE *p;
-	p=fopen("objeto.dat","rb+");
+	p=fopen("objeto.dat","rb+"); // Se abre archivo
 	if(p==NULL){
         cout<<"Error de archivo";
         return false;
     }
 	fseek(p,pos*sizeof *this,0);
-	guardo = fwrite(this,sizeof *this,1,p);
+	guardo = fwrite(this,sizeof *this,1,p); // Se escribe en el archivo
 	fclose(p);
 	return guardo; // Devuelve true si grabo o false en caso de no grabar
 }
