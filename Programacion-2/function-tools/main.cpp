@@ -1,4 +1,6 @@
 #include <iostream>
+#include <stdio.h>
+#include <string.h>
 
 using namespace std;
 
@@ -23,7 +25,7 @@ public:
 };
 
 // FUNCIONES EXTERNAS
-int buscarID(int idB); // Busca ID = ENTERO devuelve la POSICION del OBJETO
+int buscarNum(int num); // Busca ID = ENTERO devuelve la POSICION del OBJETO
 int buscarNombre(char *nombreB); // Busca por NOMBRE = CHAR* devuelve la POSICION del OBJETO
 int cantDeObjetos(); // Devuelve la cantidad de OBJETO guardados en el ARCHIVO
 int cantDeObjetosFiltros(); // Devuelve la cantidad de OBJETO que coinciden con el filtro
@@ -90,11 +92,11 @@ bool Objeto::modDisco(int pos){ // Se le pasa POSICION
 }
 
 // Funciones externas
-int buscarID(int idB){ // Se le pasa ID o ENTERO a buscar
+int buscarNum(int num){ // Se le pasa NUMERO a buscar
     int pos=0;
 	Objeto c;
 	while(c.leerDisco(pos)==1){ // Se lee el archivo
-		if(idB == c.getId()){ // Se aplica condicion
+		if(num == c.get_num()){ // Se aplica condicion
             return pos; // Devuelve la POSICION si es encontrado
 		}
 		pos++;
@@ -106,7 +108,7 @@ int buscarNombre(char *nombreB){ // Se le pasa CHAR NOMBRE a buscar
 	int pos=0;
 	Objeto c;
 	while(c.leerDisco(pos)==1){ // Se lee el archivo
-		if(strcmp(nombreB,c.getNombre())==0){ // Se aplica condicion
+		if(strcmp(nombreB,c.get_nombre())==0){ // Se aplica condicion
             return pos; // Devuelve la POSICION si es encontrado
 		}
 		pos++;
@@ -132,7 +134,7 @@ int cantDeObjetosFiltros(){
     int cant=0, pos=0;
     Objeto u;
     while(u.leerDisco(pos)==1){ // Lee el archivo
-        if(u.getEstado()==1){ // Se filtra por lo que sea desea buscar
+        if(u.get_estado()== true){ // Se filtra por lo que sea desea buscar
             cant++; // Acumula coincidencias
         }
         pos++;
