@@ -7,7 +7,7 @@ using namespace std;
 class Objeto{
 private:
     int num;
-    char nombre[5];
+    char nombre[20];
     bool estado;
 public:
     //Set Se guarda variable en la PROPIEDAD
@@ -22,6 +22,8 @@ public:
     bool escribirEnDisco(); // Guarda en archivo el objeto
     int leerDisco(int pos); // Lee el objeto que se le indique segun su POSICION
     bool modDisco(int pos); // Guarda la modificacion del objeto segun su POSICION
+    // Sobre carga de operador
+    bool operator==(char *n); // usar == Para comparar 2 nombres
 };
 
 // FUNCIONES EXTERNAS
@@ -37,8 +39,15 @@ int main()
 
 
 
+    cout << "--------" << endl;
     return 0;
 }
+
+/// Al usar FILE "ARCHIVO" tenemos los metodos de apertura:
+// RB = Read Byte - Lectura solamente. El archivo debe existir
+// WB = Write Byte - Crea un archivo para escribir o lo trunca a longitud cero
+// AB = Add Byte - Añade, abre o crea un archivo para escribir al final del archivo
+// RB+ = Read Byte Plus - Abre un archivo para leer o escribir
 
 bool Objeto::escribirEnDisco(){
     bool guardo;
@@ -78,6 +87,17 @@ bool Objeto::modDisco(int pos){ // Se le pasa POSICION
 	guardo = fwrite(this,sizeof *this,1,p);
 	fclose(p);
 	return guardo; // Devuelve true si grabo o false en caso de no grabar
+}
+
+// Sobre carga de operador
+bool Objeto::operator==(char *n){
+    bool confirm;
+    if(strcmp(n,nombre)==0){ // Se compara ambos nombres
+        confirm = true;
+    } else {
+        confirm = false;
+    }
+    return confirm;
 }
 
 // Funciones externas
@@ -130,3 +150,4 @@ int cantDeObjetosFiltros(){
     }
     return cant; // Devuelve cantidad
 }
+
