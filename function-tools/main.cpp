@@ -1,6 +1,6 @@
 #include <iostream>
-#include <stdio.h>
-#include <string.h>
+#include <stdio.h> /// PARA USAR strcpy
+#include <string.h> /// PARA USAR strcmp
 
 using namespace std;
 
@@ -25,7 +25,7 @@ public:
 };
 
 // FUNCIONES EXTERNAS
-int buscarNum(int num); // Busca ID = ENTERO devuelve la POSICION del OBJETO
+int buscarNum(int num); // Busca NUM = ENTERO devuelve la POSICION del OBJETO
 int buscarNombre(char *nombreB); // Busca por NOMBRE = CHAR* devuelve la POSICION del OBJETO
 int cantDeObjetos(); // Devuelve la cantidad de OBJETO guardados en el ARCHIVO
 int cantDeObjetosFiltros(); // Devuelve la cantidad de OBJETO que coinciden con el filtro
@@ -34,19 +34,8 @@ int main()
 {
     cout << "Hello world Function-Tools!" << endl;
     cout << endl;
-    Objeto o;
-    int num = 1;
-    char nombre[5];
-    cin >> nombre;
-    o.set_num(num);
-    o.set_nombre(nombre);
-    o.set_estado(true);
-    bool guardo = o.escribirEnDisco();
-    if(guardo){
-        cout << "Se guardo objeto en OBJETO.DAT";
-    } else {
-        cout << "Hubo un error al guardar objeto en OBJETO.DAT";
-    }
+
+
 
     return 0;
 }
