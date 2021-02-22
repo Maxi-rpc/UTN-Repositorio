@@ -48,6 +48,7 @@ public:
     void set_fecha(Fecha f){fec = f;};
     void cargar();
     void mostrar();
+    int leerDisco(int pos);
 };
 
 class Ciudad{ // ciudad.dat
@@ -80,4 +81,19 @@ public:
 
 void ejTipoParcial_2_Rutas();
 void puntoA();
+
+void puntoB();
+int contarDias(char *n);
+int contarRutas();
+class Punto_B{
+private:
+    char codRuta[5];
+    int cant_dias_intransitable; // año 2015
+public:
+    void set_codRuta(char *n){strcpy(codRuta,n);};
+    void set_cant_dias(int c){cant_dias_intransitable = c;};
+    bool escribirDisco();
+};
+
+
 #endif // EJTIPOPARCIAL_2_RUTAS_H_INCLUDED

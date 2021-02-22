@@ -61,6 +61,56 @@ void puntoA(){
     cout << "Provincia Fin" << provFin;
 }
 
+void puntoB(){
+    Ruta r;
+    int totalRutas = contarRutas();
+    int pos=0, dias=0;
+    while(r.leerDisco(pos) == 1){
+        dias = contarDias(r.get_codRuta()); // Cuento los dias de cada ruta
+        if(dias != 0){ // valido si hubo dias intransitables , si es 0 dias, fue transitable todo el año
+            Punto_B b;
+            b.set_codRuta(r.get_codRuta());
+            b.set_cant_dias(dias);
+            b.escribirDisco(); // guardo el objeto
+        }
+        pos++;
+    }
+}
+
+int contarDias(char *n){
+    Estado e;
+    int pos=0, int cant=0;
+    while(e.leerDisco(pos) == 1){
+        if(e.fec.get_dia()>0 && e.fec.get_anio()==2015 && e.get_estado()==2){
+            cant++;
+        }
+        pos++;
+    }
+    return cant;
+}
+
+int contarRutas(){
+    int cant=0, pos=0;
+    Ruta r;
+    while(r.leerDisco(pos)==1){
+        cant++;
+        pos++;
+    }
+    return cant;
+}
+
+bool Punto_B::escribirDisco(){
+    bool guardo;
+    FILE *f = fopen("archivo_puntoB.dat", "ab");
+    if(f == NULL){
+        cout << "No se puede guardar.";
+        return false;
+    }
+    guardo = fwrite(this,sizeof *this, 1, f);
+    fclose(f);
+    return guardo;
+}
+
 void Fecha::cargar(){
     cout << "Ingresar Dia: ";
     cin >> dia;
