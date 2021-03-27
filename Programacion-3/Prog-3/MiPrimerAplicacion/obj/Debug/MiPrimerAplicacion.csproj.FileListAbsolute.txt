@@ -1,0 +1,10 @@
+C:\Users\Max\Documents\GitHub\UTN-Repositorio\Programacion-3\Prog-3\MiPrimerAplicacion\bin\Debug\MiPrimerAplicacion.exe.config
+C:\Users\Max\Documents\GitHub\UTN-Repositorio\Programacion-3\Prog-3\MiPrimerAplicacion\bin\Debug\MiPrimerAplicacion.exe
+C:\Users\Max\Documents\GitHub\UTN-Repositorio\Programacion-3\Prog-3\MiPrimerAplicacion\bin\Debug\MiPrimerAplicacion.pdb
+C:\Users\Max\Documents\GitHub\UTN-Repositorio\Programacion-3\Prog-3\MiPrimerAplicacion\obj\Debug\MiPrimerAplicacion.csprojAssemblyReference.cache
+C:\Users\Max\Documents\GitHub\UTN-Repositorio\Programacion-3\Prog-3\MiPrimerAplicacion\obj\Debug\MiPrimerAplicacion.Properties.Resources.resources
+C:\Users\Max\Documents\GitHub\UTN-Repositorio\Programacion-3\Prog-3\MiPrimerAplicacion\obj\Debug\MiPrimerAplicacion.csproj.GenerateResource.cache
+C:\Users\Max\Documents\GitHub\UTN-Repositorio\Programacion-3\Prog-3\MiPrimerAplicacion\obj\Debug\MiPrimerAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\Max\Documents\GitHub\UTN-Repositorio\Programacion-3\Prog-3\MiPrimerAplicacion\obj\Debug\MiPrimerAplicacion.exe
+C:\Users\Max\Documents\GitHub\UTN-Repositorio\Programacion-3\Prog-3\MiPrimerAplicacion\obj\Debug\MiPrimerAplicacion.pdb
+C:\Users\Max\Documents\GitHub\UTN-Repositorio\Programacion-3\Prog-3\MiPrimerAplicacion\obj\Debug\MiPrimerAplicacion.Formulario.resources
