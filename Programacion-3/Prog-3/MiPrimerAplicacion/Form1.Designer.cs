@@ -29,7 +29,20 @@ namespace MiPrimerAplicacion
         /// </summary>
         private void InitializeComponent()
         {
+            this.boton1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // boton1
+            // 
+            this.boton1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.boton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.boton1.Location = new System.Drawing.Point(339, 195);
+            this.boton1.Name = "boton1";
+            this.boton1.Size = new System.Drawing.Size(75, 23);
+            this.boton1.TabIndex = 0;
+            this.boton1.Text = "boton";
+            this.boton1.UseVisualStyleBackColor = false;
+            this.boton1.Click += new System.EventHandler(this.boton1_Click);
             // 
             // Formulario
             // 
@@ -37,19 +50,23 @@ namespace MiPrimerAplicacion
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.boton1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Formulario";
-            this.Opacity = 0.7D;
+            this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MiApp";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Formulario_FormClosed);
             this.Load += new System.EventHandler(this.Formulario_Load);
+            this.Click += new System.EventHandler(this.Formulario_Click);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button boton1;
     }
 }
 

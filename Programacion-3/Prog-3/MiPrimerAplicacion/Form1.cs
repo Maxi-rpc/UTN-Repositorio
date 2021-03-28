@@ -26,5 +26,23 @@ namespace MiPrimerAplicacion
         {
             MessageBox.Show("Chau Chau...");
         }
+
+        private void boton1_Click(object sender, EventArgs e)
+        {
+            //MessageBox.Show("Se disparo el evento Click", "Atencion");
+            this.BackColor = Color.Blue;
+        }
+
+        private void Formulario_Click(object sender, EventArgs e)
+        {
+            MouseEventArgs click = (MouseEventArgs)e;
+
+            if (click.Button == MouseButtons.Left)
+                MessageBox.Show("Presiono el boton izquierdo", "Atencion");
+            else if (click.Button == MouseButtons.Right)
+                MessageBox.Show("Presiono el boton derecho", "Atencion");
+            else if (click.Button == MouseButtons.Middle)
+                MessageBox.Show("Presiono el boton del medio", "Atencion");
+        }
     }
 }
