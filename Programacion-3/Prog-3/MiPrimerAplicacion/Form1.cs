@@ -44,5 +44,17 @@ namespace MiPrimerAplicacion
             else if (click.Button == MouseButtons.Middle)
                 MessageBox.Show("Presiono el boton del medio", "Atencion");
         }
+
+        private void labelUno_MouseMove(object sender, MouseEventArgs e)
+        {
+            labelUno.BackColor = Color.Cyan;
+            labelUno.Cursor = Cursors.Hand;
+        }
+
+        private void labelUno_MouseLeave(object sender, EventArgs e)
+        {
+            labelUno.BackColor = System.Drawing.SystemColors.Control;
+            labelUno.Cursor = Cursors.Arrow;
+        }
     }
 }
