@@ -30,7 +30,11 @@ namespace MiPrimerAplicacion
         private void boton1_Click(object sender, EventArgs e)
         {
             //MessageBox.Show("Se disparo el evento Click", "Atencion");
-            this.BackColor = Color.Blue;
+            //this.BackColor = Color.Blue;
+            if (txtApellido.Text == "")
+                txtApellido.BackColor = Color.Red;
+            else
+                txtApellido.BackColor = System.Drawing.SystemColors.Control;
         }
 
         private void Formulario_Click(object sender, EventArgs e)
@@ -55,6 +59,27 @@ namespace MiPrimerAplicacion
         {
             labelUno.BackColor = System.Drawing.SystemColors.Control;
             labelUno.Cursor = Cursors.Arrow;
+        }
+
+        private void txtApellido_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar < 48 || e.KeyChar > 59) && e.KeyChar != 8)
+                e.Handled = true;
+        }
+
+        private void descripcion_Leave(object sender, EventArgs e)
+        {
+            MessageBox.Show("Tiene " + txtNuevo.Text.Length + " Caracteres");
+        }
+
+        private void txtNuevo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
