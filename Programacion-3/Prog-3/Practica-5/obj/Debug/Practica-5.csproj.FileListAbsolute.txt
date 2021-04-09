@@ -1,0 +1,10 @@
+C:\Users\Max\Documents\GitHub\UTN-Repositorio\Programacion-3\Prog-3\Practica-5\bin\Debug\Practica-5.exe.config
+C:\Users\Max\Documents\GitHub\UTN-Repositorio\Programacion-3\Prog-3\Practica-5\bin\Debug\Practica-5.exe
+C:\Users\Max\Documents\GitHub\UTN-Repositorio\Programacion-3\Prog-3\Practica-5\bin\Debug\Practica-5.pdb
+C:\Users\Max\Documents\GitHub\UTN-Repositorio\Programacion-3\Prog-3\Practica-5\obj\Debug\Practica-5.csprojAssemblyReference.cache
+C:\Users\Max\Documents\GitHub\UTN-Repositorio\Programacion-3\Prog-3\Practica-5\obj\Debug\Practica_5.DatosPersonales.resources
+C:\Users\Max\Documents\GitHub\UTN-Repositorio\Programacion-3\Prog-3\Practica-5\obj\Debug\Practica_5.Properties.Resources.resources
+C:\Users\Max\Documents\GitHub\UTN-Repositorio\Programacion-3\Prog-3\Practica-5\obj\Debug\Practica-5.csproj.GenerateResource.cache
+C:\Users\Max\Documents\GitHub\UTN-Repositorio\Programacion-3\Prog-3\Practica-5\obj\Debug\Practica-5.csproj.CoreCompileInputs.cache
+C:\Users\Max\Documents\GitHub\UTN-Repositorio\Programacion-3\Prog-3\Practica-5\obj\Debug\Practica-5.exe
+C:\Users\Max\Documents\GitHub\UTN-Repositorio\Programacion-3\Prog-3\Practica-5\obj\Debug\Practica-5.pdb
