@@ -1,0 +1,928 @@
+# depslib dependency file v1.0
+1605125651 source:c:\users\tivit\documents\github\utn-lab2-proyectofinalsasa\sasa\main.cpp
+	<iostream>
+	"menu.h"
+	"login.h"
+	"ui.h"
+	"rlutil.h"
+	"carteles.h"
+	"usuario.h"
+	"producto.h"
+	"Fecha.h"
+
+1605125651 c:\users\tivit\documents\github\utn-lab2-proyectofinalsasa\sasa\menu.h
+
+1605125651 source:c:\users\tivit\documents\github\utn-lab2-proyectofinalsasa\sasa\menu.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	"menu.h"
+	"ui.h"
+	"rlutil.h"
+	"carteles.h"
+	"usuario.h"
+	"producto.h"
+	"categoria.h"
+
+1603306690 c:\users\tivit\documents\github\utn-lab2-proyectofinalsasa\sasa\ui.h
+
+1601305701 c:\users\tivit\documents\github\utn-lab2-proyectofinalsasa\sasa\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1604415886 source:c:\users\tivit\documents\github\utn-lab2-proyectofinalsasa\sasa\ui.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+
+1603329149 D
+
+1608074841 source:e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\main.cpp
+	<iostream>
+	"menu.h"
+	"login.h"
+	"ui.h"
+	"rlutil.h"
+	"carteles.h"
+	"usuario.h"
+	"producto.h"
+	"Fecha.h"
+	"movimiento.h"
+	<string.h>
+
+1607627938 e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\menu.h
+
+1605747576 e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\ui.h
+
+1603490629 e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\rlutil.h
+
+1606690826 source:c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\main.cpp
+	<iostream>
+	"menu.h"
+	"login.h"
+	"ui.h"
+	"rlutil.h"
+	"carteles.h"
+	"usuario.h"
+	"producto.h"
+	"Fecha.h"
+	"movimiento.h"
+
+1606688148 c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\menu.h
+
+1605749893 c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\ui.h
+
+1603329149 c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\rlutil.h
+
+1603495626 i
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+	<iostream>
+	<iomanip>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+	"ui.h"
+	"rlutil.h"
+
+1608074841 source:e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\menu.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<time.h>
+	"menu.h"
+	"ui.h"
+	"rlutil.h"
+	"carteles.h"
+	"usuario.h"
+	"producto.h"
+	"categoria.h"
+	"movimiento.h"
+	"login.h"
+	"validaciones.h"
+
+1606520449 source:e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\ui.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+
+1605749893 source:c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\ui.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+
+1606429484 e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\login.h
+	"usuario.h"
+
+1606862467 source:e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\login.cpp
+	<iostream>
+	<string>
+	<iomanip>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+	"carteles.h"
+	"login.h"
+	"menu.h"
+	"usuario.h"
+	"movimiento.h"
+	"validaciones.h"
+	"ui.h"
+	"rlutil.h"
+
+1603496077 
+
+1606689308 source:c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\menu.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<time.h>
+	"menu.h"
+	"ui.h"
+	"rlutil.h"
+	"carteles.h"
+	"usuario.h"
+	"producto.h"
+	"categoria.h"
+	"movimiento.h"
+	"login.h"
+	"validaciones.h"
+
+1606267749 c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\login.h
+	"usuario.h"
+
+1606692996 source:c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\login.cpp
+	<iostream>
+	<string>
+	<iomanip>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+	"carteles.h"
+	"login.h"
+	"menu.h"
+	"usuario.h"
+	"movimiento.h"
+	"validaciones.h"
+	"ui.h"
+	"rlutil.h"
+
+1606691075 source:c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\usuario.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	"ui.h"
+	"rlutil.h"
+	<string>
+	"usuario.h"
+	"carteles.h"
+	"validaciones.h"
+
+1606439225 c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\usuario.h
+	<string>
+
+1604682385 source:c:\users\tivit\documents\github\utn-lab2-proyectofinalsasa\sasa\login.cpp
+	<iostream>
+	<string>
+	<iomanip>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+	"carteles.h"
+	"login.h"
+	"menu.h"
+	"usuario.h"
+	"ui.h"
+	"rlutil.h"
+
+1604682385 c:\users\tivit\documents\github\utn-lab2-proyectofinalsasa\sasa\login.h
+
+1605105557 source:c:\users\tivit\documents\github\utn-lab2-proyectofinalsasa\sasa\usuario.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	"ui.h"
+	"rlutil.h"
+	<string>
+	"usuario.h"
+
+1605105557 c:\users\tivit\documents\github\utn-lab2-proyectofinalsasa\sasa\usuario.h
+	<string>
+
+1606692755 source:c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\producto.cpp
+	<iostream>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"producto.h"
+	"categoria.h"
+	"Fecha.h"
+	"login.h"
+	"movimiento.h"
+	"validaciones.h"
+
+1606439225 c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\producto.h
+	"categoria.h"
+
+1605125651 c:\users\tivit\documents\github\utn-lab2-proyectofinalsasa\sasa\producto.h
+	"categoria.h"
+
+1605125651 source:c:\users\tivit\documents\github\utn-lab2-proyectofinalsasa\sasa\producto.cpp
+	<iostream>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"producto.h"
+	"categoria.h"
+	"Fecha.h"
+
+1607627938 e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\usuario.h
+	<string>
+
+1607627938 e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\producto.h
+	"categoria.h"
+
+1608074841 source:e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\producto.cpp
+	<iostream>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"producto.h"
+	"categoria.h"
+	"Fecha.h"
+	"login.h"
+	"movimiento.h"
+	"validaciones.h"
+	"carteles.h"
+	<fstream>
+	<string>
+
+1608074841 source:e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\usuario.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	"ui.h"
+	"rlutil.h"
+	<string>
+	"usuario.h"
+	"carteles.h"
+	"validaciones.h"
+	<fstream>
+	<string>
+
+1607783955 source:e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\carteles.cpp
+	<iostream>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"carteles.h"
+	"usuario.h"
+
+1607630409 e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\carteles.h
+
+1606693097 source:c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\carteles.cpp
+	<iostream>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"carteles.h"
+	"usuario.h"
+
+1606688148 c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\carteles.h
+
+1605125651 source:c:\users\tivit\documents\github\utn-lab2-proyectofinalsasa\sasa\carteles.cpp
+	<iostream>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"carteles.h"
+	"carteles.h"
+
+1604682385 c:\users\tivit\documents\github\utn-lab2-proyectofinalsasa\sasa\carteles.h
+
+1605023398 source:c:\users\gabri\documents\github\utn-lab2-proyectofinalsasa\sasa\carteles.cpp
+	<iostream>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"carteles.h"
+	"carteles.h"
+
+1603973097 c:\users\gabri\documents\github\utn-lab2-proyectofinalsasa\sasa\ui.h
+
+1603973097 c:\users\gabri\documents\github\utn-lab2-proyectofinalsasa\sasa\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1605023398 c:\users\gabri\documents\github\utn-lab2-proyectofinalsasa\sasa\carteles.h
+
+1605023398 source:c:\users\gabri\documents\github\utn-lab2-proyectofinalsasa\sasa\login.cpp
+	<iostream>
+	<string>
+	<iomanip>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+	"carteles.h"
+	"login.h"
+	"menu.h"
+	"usuario.h"
+	"ui.h"
+	"rlutil.h"
+
+1605023398 c:\users\gabri\documents\github\utn-lab2-proyectofinalsasa\sasa\login.h
+
+1605023398 c:\users\gabri\documents\github\utn-lab2-proyectofinalsasa\sasa\menu.h
+
+1605023398 c:\users\gabri\documents\github\utn-lab2-proyectofinalsasa\sasa\usuario.h
+	<string>
+
+1605112797 source:c:\users\gabri\documents\github\utn-lab2-proyectofinalsasa\sasa\main.cpp
+	<iostream>
+	"menu.h"
+	"login.h"
+	"ui.h"
+	"rlutil.h"
+	"carteles.h"
+	"usuario.h"
+	"producto.h"
+
+1605023398 c:\users\gabri\documents\github\utn-lab2-proyectofinalsasa\sasa\producto.h
+
+1605108826 source:c:\users\gabri\documents\github\utn-lab2-proyectofinalsasa\sasa\menu.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	"menu.h"
+	"ui.h"
+	"rlutil.h"
+	"carteles.h"
+	"usuario.h"
+	"producto.h"
+	"categoria.h"
+
+1605023398 source:c:\users\gabri\documents\github\utn-lab2-proyectofinalsasa\sasa\producto.cpp
+	<iostream>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"producto.h"
+
+1603973097 source:c:\users\gabri\documents\github\utn-lab2-proyectofinalsasa\sasa\ui.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+
+1605023398 source:c:\users\gabri\documents\github\utn-lab2-proyectofinalsasa\sasa\usuario.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	"ui.h"
+	"rlutil.h"
+	<string>
+	"usuario.h"
+
+1605112447 source:c:\users\gabri\documents\github\utn-lab2-proyectofinalsasa\sasa\fecha.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"ui.h"
+	"rlutil.h"
+	"fecha.h"
+	"producto.h"
+	"carteles.h"
+
+1605112330 c:\users\gabri\documents\github\utn-lab2-proyectofinalsasa\sasa\fecha.h
+
+1605108826 source:c:\users\gabri\documents\github\utn-lab2-proyectofinalsasa\sasa\categoria.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"ui.h"
+	"rlutil.h"
+	"categoria.h"
+	"Fecha.h"
+
+1605023398 c:\users\gabri\documents\github\utn-lab2-proyectofinalsasa\sasa\categoria.h
+
+1605125651 source:c:\users\tivit\documents\github\utn-lab2-proyectofinalsasa\sasa\categoria.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"ui.h"
+	"rlutil.h"
+	"categoria.h"
+	"Fecha.h"
+	"carteles.h"
+
+1605125651 c:\users\tivit\documents\github\utn-lab2-proyectofinalsasa\sasa\categoria.h
+	"Fecha.h"
+
+1605125868 c:\users\tivit\documents\github\utn-lab2-proyectofinalsasa\sasa\fecha.h
+
+1605124644 source:c:\users\tivit\documents\github\utn-lab2-proyectofinalsasa\sasa\fecha.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"ui.h"
+	"rlutil.h"
+	"fecha.h"
+	"producto.h"
+
+1608074841 source:e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\categoria.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"ui.h"
+	"rlutil.h"
+	"categoria.h"
+	"Fecha.h"
+	"carteles.h"
+	"validaciones.h"
+	<fstream>
+	<string>
+
+1607627938 e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\categoria.h
+	"Fecha.h"
+
+1607627938 e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\fecha.h
+
+1607627938 source:e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\fecha.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"ui.h"
+	"rlutil.h"
+	"fecha.h"
+	"producto.h"
+	"carteles.h"
+
+1605126248 source:e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\movimientos.cpp
+	"movimientos.h"
+
+1605128240 e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\movimientos.h
+	"usuario.h"
+	"producto.h"
+	"Fecha.h"
+
+1608075155 source:e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\movimiento.cpp
+	<iostream>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"producto.h"
+	"Fecha.h"
+	"movimiento.h"
+	"login.h"
+	"categoria.h"
+	"carteles.h"
+	"validaciones.h"
+	<fstream>
+	<string>
+
+1608074841 e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\movimiento.h
+	"usuario.h"
+	"producto.h"
+	"Fecha.h"
+
+1606692957 source:c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\categoria.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"ui.h"
+	"rlutil.h"
+	"categoria.h"
+	"Fecha.h"
+	"carteles.h"
+	"validaciones.h"
+
+1606439225 c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\categoria.h
+	"Fecha.h"
+
+1605651657 c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\fecha.h
+
+1606440600 source:c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\fecha.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"ui.h"
+	"rlutil.h"
+	"fecha.h"
+	"producto.h"
+	"carteles.h"
+
+1606688148 c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\movimiento.h
+	"usuario.h"
+	"producto.h"
+	"Fecha.h"
+
+1606688172 source:c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\movimiento.cpp
+	<iostream>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"producto.h"
+	"Fecha.h"
+	"movimiento.h"
+	"login.h"
+	"categoria.h"
+	"carteles.h"
+	"validaciones.h"
+
+1606439518 source:c:\users\crist\onedrive\escritorio\sasa\utn-lab2-proyectofinalsasa-66fa31edeeae2ee8dc0e6219a9f0d05314cc3104\sasa\carteles.cpp
+	<iostream>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"carteles.h"
+	"usuario.h"
+
+1605747576 c:\users\crist\onedrive\escritorio\sasa\utn-lab2-proyectofinalsasa-66fa31edeeae2ee8dc0e6219a9f0d05314cc3104\sasa\ui.h
+
+1603490629 c:\users\crist\onedrive\escritorio\sasa\utn-lab2-proyectofinalsasa-66fa31edeeae2ee8dc0e6219a9f0d05314cc3104\sasa\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1606429484 c:\users\crist\onedrive\escritorio\sasa\utn-lab2-proyectofinalsasa-66fa31edeeae2ee8dc0e6219a9f0d05314cc3104\sasa\carteles.h
+
+1606439262 c:\users\crist\onedrive\escritorio\sasa\utn-lab2-proyectofinalsasa-66fa31edeeae2ee8dc0e6219a9f0d05314cc3104\sasa\usuario.h
+	<string>
+
+1606446343 source:c:\users\crist\onedrive\escritorio\sasa\utn-lab2-proyectofinalsasa-66fa31edeeae2ee8dc0e6219a9f0d05314cc3104\sasa\categoria.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"ui.h"
+	"rlutil.h"
+	"categoria.h"
+	"Fecha.h"
+	"carteles.h"
+
+1606439262 c:\users\crist\onedrive\escritorio\sasa\utn-lab2-proyectofinalsasa-66fa31edeeae2ee8dc0e6219a9f0d05314cc3104\sasa\categoria.h
+	"Fecha.h"
+
+1605747570 c:\users\crist\onedrive\escritorio\sasa\utn-lab2-proyectofinalsasa-66fa31edeeae2ee8dc0e6219a9f0d05314cc3104\sasa\fecha.h
+
+1606446343 source:c:\users\crist\onedrive\escritorio\sasa\utn-lab2-proyectofinalsasa-66fa31edeeae2ee8dc0e6219a9f0d05314cc3104\sasa\fecha.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"ui.h"
+	"rlutil.h"
+	"fecha.h"
+	"producto.h"
+	"carteles.h"
+
+1606439262 c:\users\crist\onedrive\escritorio\sasa\utn-lab2-proyectofinalsasa-66fa31edeeae2ee8dc0e6219a9f0d05314cc3104\sasa\producto.h
+	"categoria.h"
+
+1606446343 source:c:\users\crist\onedrive\escritorio\sasa\utn-lab2-proyectofinalsasa-66fa31edeeae2ee8dc0e6219a9f0d05314cc3104\sasa\login.cpp
+	<iostream>
+	<string>
+	<iomanip>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+	"carteles.h"
+	"login.h"
+	"menu.h"
+	"usuario.h"
+	"movimiento.h"
+	"ui.h"
+	"rlutil.h"
+
+1606429484 c:\users\crist\onedrive\escritorio\sasa\utn-lab2-proyectofinalsasa-66fa31edeeae2ee8dc0e6219a9f0d05314cc3104\sasa\login.h
+	"usuario.h"
+
+1606439262 c:\users\crist\onedrive\escritorio\sasa\utn-lab2-proyectofinalsasa-66fa31edeeae2ee8dc0e6219a9f0d05314cc3104\sasa\menu.h
+
+1606439518 c:\users\crist\onedrive\escritorio\sasa\utn-lab2-proyectofinalsasa-66fa31edeeae2ee8dc0e6219a9f0d05314cc3104\sasa\movimiento.h
+	"usuario.h"
+	"producto.h"
+	"Fecha.h"
+
+1606429484 source:c:\users\crist\onedrive\escritorio\sasa\utn-lab2-proyectofinalsasa-66fa31edeeae2ee8dc0e6219a9f0d05314cc3104\sasa\main.cpp
+	<iostream>
+	"menu.h"
+	"login.h"
+	"ui.h"
+	"rlutil.h"
+	"carteles.h"
+	"usuario.h"
+	"producto.h"
+	"Fecha.h"
+	"movimiento.h"
+
+1606446343 source:c:\users\crist\onedrive\escritorio\sasa\utn-lab2-proyectofinalsasa-66fa31edeeae2ee8dc0e6219a9f0d05314cc3104\sasa\menu.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<time.h>
+	"menu.h"
+	"ui.h"
+	"rlutil.h"
+	"carteles.h"
+	"usuario.h"
+	"producto.h"
+	"categoria.h"
+	"movimiento.h"
+	"login.h"
+
+1606446343 source:c:\users\crist\onedrive\escritorio\sasa\utn-lab2-proyectofinalsasa-66fa31edeeae2ee8dc0e6219a9f0d05314cc3104\sasa\movimiento.cpp
+	<iostream>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"producto.h"
+	"Fecha.h"
+	"movimiento.h"
+	"login.h"
+	"categoria.h"
+	"carteles.h"
+
+1606446343 source:c:\users\crist\onedrive\escritorio\sasa\utn-lab2-proyectofinalsasa-66fa31edeeae2ee8dc0e6219a9f0d05314cc3104\sasa\producto.cpp
+	<iostream>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"producto.h"
+	"categoria.h"
+	"Fecha.h"
+	"login.h"
+	"movimiento.h"
+
+1606446343 source:c:\users\crist\onedrive\escritorio\sasa\utn-lab2-proyectofinalsasa-66fa31edeeae2ee8dc0e6219a9f0d05314cc3104\sasa\ui.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+
+1606446343 source:c:\users\crist\onedrive\escritorio\sasa\utn-lab2-proyectofinalsasa-66fa31edeeae2ee8dc0e6219a9f0d05314cc3104\sasa\usuario.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	"ui.h"
+	"rlutil.h"
+	<string>
+	"usuario.h"
+	"carteles.h"
+
+1606688148 c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\validaciones.h
+
+1606688148 source:c:\users\maxi\documents\github\utn-lab2-proyectofinalsasa\sasa\validaciones.cpp
+	<iostream>
+	<iomanip>
+	<conio.h>
+	"ui.h"
+	"rlutil.h"
+	"producto.h"
+	"categoria.h"
+	"Fecha.h"
+	"login.h"
+	"movimiento.h"
+	"validaciones.h"
+
+1608161302 source:c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\carteles.cpp
+	<iostream>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"carteles.h"
+	"usuario.h"
+
+1607373021 c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\ui.h
+
+1607180848 c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1608161302 c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\carteles.h
+
+1607373021 c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\usuario.h
+	<string>
+
+1608163571 source:c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\categoria.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"ui.h"
+	"rlutil.h"
+	"categoria.h"
+	"Fecha.h"
+	"carteles.h"
+	"validaciones.h"
+	<fstream>
+	<string>
+
+1607373021 c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\categoria.h
+	"Fecha.h"
+
+1607373021 c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\fecha.h
+
+1608163571 c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\validaciones.h
+
+1607373021 source:c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\fecha.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"ui.h"
+	"rlutil.h"
+	"fecha.h"
+	"producto.h"
+	"carteles.h"
+
+1607373021 c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\producto.h
+	"categoria.h"
+
+1607373021 source:c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\login.cpp
+	<iostream>
+	<string>
+	<iomanip>
+	<cstdlib>
+	<windows.h>
+	<conio.h>
+	"carteles.h"
+	"login.h"
+	"menu.h"
+	"usuario.h"
+	"movimiento.h"
+	"validaciones.h"
+	"ui.h"
+	"rlutil.h"
+
+1607373021 c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\login.h
+	"usuario.h"
+
+1608161302 c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\menu.h
+
+1608163571 c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\movimiento.h
+	"usuario.h"
+	"producto.h"
+	"Fecha.h"
+
+1608163571 source:c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\main.cpp
+	<iostream>
+	"menu.h"
+	"login.h"
+	"ui.h"
+	"rlutil.h"
+	"carteles.h"
+	"usuario.h"
+	"producto.h"
+	"Fecha.h"
+	"movimiento.h"
+	<string.h>
+
+1608163571 source:c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\menu.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<time.h>
+	"menu.h"
+	"ui.h"
+	"rlutil.h"
+	"carteles.h"
+	"usuario.h"
+	"producto.h"
+	"categoria.h"
+	"movimiento.h"
+	"login.h"
+	"validaciones.h"
+
+1608163571 source:c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\movimiento.cpp
+	<iostream>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"producto.h"
+	"Fecha.h"
+	"movimiento.h"
+	"login.h"
+	"categoria.h"
+	"carteles.h"
+	"validaciones.h"
+	<fstream>
+	<string>
+
+1608163571 source:c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\producto.cpp
+	<iostream>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"producto.h"
+	"categoria.h"
+	"Fecha.h"
+	"login.h"
+	"movimiento.h"
+	"validaciones.h"
+	"carteles.h"
+	<fstream>
+	<string>
+
+1607373021 source:c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\ui.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+
+1608163571 source:c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\usuario.cpp
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	"ui.h"
+	"rlutil.h"
+	<string>
+	"usuario.h"
+	"carteles.h"
+	"validaciones.h"
+	<fstream>
+	<string>
+
+1608163571 source:c:\users\max\documents\github\utn-lab2-proyectofinalsasa\sasa\validaciones.cpp
+	<iostream>
+	<iomanip>
+	<conio.h>
+	"ui.h"
+	"rlutil.h"
+	"producto.h"
+	"categoria.h"
+	"Fecha.h"
+	"login.h"
+	"movimiento.h"
+	"validaciones.h"
+
+1608074841 e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\validaciones.h
+
+1608074841 source:e:\utn frgp\2° cuatrimestre\laboratorio ii\utn-lab2-proyectofinalsasa\sasa\validaciones.cpp
+	<iostream>
+	<iomanip>
+	<conio.h>
+	"ui.h"
+	"rlutil.h"
+	"producto.h"
+	"categoria.h"
+	"Fecha.h"
+	"login.h"
+	"movimiento.h"
+	"validaciones.h"
+

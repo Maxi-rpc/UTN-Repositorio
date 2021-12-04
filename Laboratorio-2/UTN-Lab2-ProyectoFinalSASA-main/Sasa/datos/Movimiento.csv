@@ -1,0 +1,33 @@
+ID,USUARIO,PRODUCTO,MARCA,CATEGORÍA,TIPO,STOCK,FECHA
+1,admin,Tallarin,Marolio,Almacén,Ingreso,10,7/12/2020
+2,admin,Lavandina,Ayudín,Limpieza,Ingreso,5,7/12/2020
+3,admin,Salchicha,Union,Freezer,Ingreso,20,7/12/2020
+4,admin,Jabón,Lux,Baño,Ingreso,30,7/12/2020
+5,admin,Alfajor,Aguila,Kiosko,Ingreso,20,7/12/2020
+6,admin,Harina,Favorita,Almacén,Ingreso,50,7/12/2020
+7,admin,Detergente,Magistral,Limpieza,Ingreso,50,7/12/2020
+8,admin,Papas Fritas,Mc Cain,Freezer,Ingreso,60,7/12/2020
+9,admin,Shampoo,Plusbell,Baño,Ingreso,40,7/12/2020
+10,admin,Turrón,Arcor,Kiosko,Ingreso,10,7/12/2020
+11,admin,Fideos,San Vicente,Almacén,Ingreso,30,7/12/2020
+12,admin,Golosina,Arcor,Kiosko,Ingreso,50,7/12/2020
+13,admin,Dentrifico,Colgate,Baño,Ingreso,20,7/12/2020
+14,admin,Blem,Blem,Limpieza,Ingreso,10,7/12/2020
+15,admin,Cerveza,Quilmes,Bebidas,Ingreso,100,7/12/2020
+16,admin,Hamburguesa,Paty,Freezer,Ingreso,80,7/12/2020
+17,admin,Agua Saborizada,Aquarius,Bebidas,Ingreso,90,7/12/2020
+18,admin,Almohada,Fireball,Hogar,Ingreso,5,7/12/2020
+19,supervisor,Dentrifico,Bplus,Baño,Ingreso,50,10/12/2020
+20,supervisor,Tallarin,Marolio,Almacén,Ingreso,50,10/12/2020
+21,supervisor,Lavandina,Ayudín,Limpieza,Ingreso,20,10/12/2020
+22,supervisor,Salchicha,Union,Freezer,Ingreso,40,10/12/2020
+23,supervisor,Alfajor,Aguila,Kiosko,Ingreso,10,10/12/2020
+24,supervisor,Harina,Favorita,Almacén,Ingreso,10,10/12/2020
+25,supervisor,Tallarin,Marolio,Almacén,Ingreso,5,10/12/2020
+26,supervisor,Alfajor,Aguila,Kiosko,Ingreso,5,10/12/2020
+27,admin,Lavandina,Ayudín,Limpieza,Egreso,30,15/12/2020
+28,admin,Salchicha,Union,Freezer,Egreso,65,15/12/2020
+29,admin,Alfajor,Aguila,Kiosko,Egreso,5,15/12/2020
+30,admin,Alfajor,Aguila,Kiosko,Egreso,40,15/12/2020
+31,admin,Lavandina,Ayudín,Limpieza,Egreso,10,15/12/2020
+32,admin,Detergente,Magistral,Limpieza,Egreso,10,15/12/2020
