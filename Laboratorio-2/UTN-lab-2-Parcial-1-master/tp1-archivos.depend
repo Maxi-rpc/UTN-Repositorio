@@ -1,0 +1,702 @@
+# depslib dependency file v1.0
+1599881993 source:c:\users\gabri\documents\github\lara-project\tp1-archivos\funciones.cpp
+	<iostream>
+	<windows.h>
+	<string.h>
+	<cstdio>
+	<ctime>
+	"funciones.h"
+	"strUsuario.h"
+	"ui.h"
+
+1599521547 source:c:\users\gabri\documents\github\lara-project\tp1-archivos\main.cpp
+	<iostream>
+	<locale.h>
+	<windows.h>
+	"funciones.h"
+	"strUsuario.h"
+
+1600988885 source:c:\users\maxi\documents\github\lara-project\tp1-archivos\funciones.cpp
+	<iostream>
+	<windows.h>
+	<string.h>
+	<cstdio>
+	<ctime>
+	"funciones.h"
+	"strUsuario.h"
+	"entrenamiento.h"
+	"ui.h"
+
+1600986902 c:\users\maxi\documents\github\lara-project\tp1-archivos\funciones.h
+
+1600906800 c:\users\maxi\documents\github\lara-project\tp1-archivos\strusuario.h
+
+1600987085 source:c:\users\maxi\documents\github\lara-project\tp1-archivos\main.cpp
+	<iostream>
+	<locale.h>
+	<windows.h>
+	"funciones.h"
+	"strUsuario.h"
+
+1598913756 source:c:\users\maxi\documents\github\lara-project\tp1-archivos\fecha.cpp
+	<iostream>
+	"fecha.h"
+
+1598913724 c:\users\maxi\documents\github\lara-project\tp1-archivos\fecha.h
+
+1600988885 source:c:\users\maxi\documents\github\lara-project\tp1-archivos\funcusuarios.cpp
+	<iostream>
+	<windows.h>
+	<ctime>
+	<cstdio>
+	"funciones.h"
+	"strUsuario.h"
+	"entrenamiento.h"
+
+1599792591 source:c:\users\uhrig\desktop\utn frgp\2° cuatrimestre\laboratorio ii\tp1-archivos\lara-project\tp1-archivos\funcusuarios.cpp
+	<iostream>
+	<windows.h>
+	<cstdio>
+	"funciones.h"
+	"strUsuario.h"
+
+1599793910 c:\users\uhrig\desktop\utn frgp\2° cuatrimestre\laboratorio ii\tp1-archivos\lara-project\tp1-archivos\funciones.h
+
+1599788125 c:\users\uhrig\desktop\utn frgp\2° cuatrimestre\laboratorio ii\tp1-archivos\lara-project\tp1-archivos\strusuario.h
+
+1599788125 source:c:\users\uhrig\desktop\utn frgp\2° cuatrimestre\laboratorio ii\tp1-archivos\lara-project\tp1-archivos\main.cpp
+	<iostream>
+	<locale.h>
+	<windows.h>
+	"funciones.h"
+	"strUsuario.h"
+
+1599792565 source:c:\users\uhrig\desktop\utn frgp\2° cuatrimestre\laboratorio ii\tp1-archivos\lara-project\tp1-archivos\funciones.cpp
+	<iostream>
+	<windows.h>
+	<string.h>
+	<cstdio>
+	"funciones.h"
+	"strUsuario.h"
+	"ui.h"
+
+1600568284 source:c:\users\maxi\documents\github\lara-project\tp1-archivos\ui.cpp
+	<iostream>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+
+1600568284 c:\users\maxi\documents\github\lara-project\tp1-archivos\ui.h
+
+1600568284 c:\users\maxi\documents\github\lara-project\tp1-archivos\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1599788125 c:\users\uhrig\desktop\utn frgp\2° cuatrimestre\laboratorio ii\tp1-archivos\lara-project\tp1-archivos\ui.h
+
+1599788125 source:c:\users\uhrig\desktop\utn frgp\2° cuatrimestre\laboratorio ii\tp1-archivos\lara-project\tp1-archivos\ui.cpp
+	<iostream>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+
+1599788125 c:\users\uhrig\desktop\utn frgp\2° cuatrimestre\laboratorio ii\tp1-archivos\lara-project\tp1-archivos\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1599860555 c:\users\gabri\documents\github\lara-project\tp1-archivos\funciones.h
+
+1599522626 c:\users\gabri\documents\github\lara-project\tp1-archivos\strusuario.h
+
+1599785722 source:c:\users\gabri\documents\github\lara-project\tp1-archivos\ui.cpp
+	<iostream>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+
+1599785722 c:\users\gabri\documents\github\lara-project\tp1-archivos\ui.h
+
+1599785722 c:\users\gabri\documents\github\lara-project\tp1-archivos\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1599880322 source:c:\users\gabri\documents\github\lara-project\tp1-archivos\funcusuarios.cpp
+	<iostream>
+	<windows.h>
+	<ctime>
+	<cstdio>
+	"funciones.h"
+	"strUsuario.h"
+
+1600988432 source:c:\users\maxi\documents\github\lara-project\tp1-archivos\entrenamiento.cpp
+	<iostream>
+	<windows.h>
+	<ctime>
+	<cstdio>
+	"entrenamiento.h"
+	"strUsuario.h"
+
+1600991151 c:\users\maxi\documents\github\lara-project\tp1-archivos\entrenamiento.h
+
+1600901614 source:e:\utn frgp\2° cuatrimestre\laboratorio ii\lara-project\tp1-archivos\ui.cpp
+	<iostream>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+
+1600901614 e:\utn frgp\2° cuatrimestre\laboratorio ii\lara-project\tp1-archivos\ui.h
+
+1600901614 e:\utn frgp\2° cuatrimestre\laboratorio ii\lara-project\tp1-archivos\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1600917136 source:e:\utn frgp\2° cuatrimestre\laboratorio ii\lara-project\tp1-archivos\entrenamiento.cpp
+	<iostream>
+	<windows.h>
+	<ctime>
+	<cstdio>
+	"entrenamiento.h"
+	"strUsuario.h"
+
+1600917136 e:\utn frgp\2° cuatrimestre\laboratorio ii\lara-project\tp1-archivos\entrenamiento.h
+
+1600910003 e:\utn frgp\2° cuatrimestre\laboratorio ii\lara-project\tp1-archivos\strusuario.h
+
+1600986607 source:e:\utn frgp\2° cuatrimestre\laboratorio ii\lara-project\tp1-archivos\funcusuarios.cpp
+	<iostream>
+	<windows.h>
+	<ctime>
+	<cstdio>
+	"funciones.h"
+	"strUsuario.h"
+	"entrenamiento.h"
+
+1600986566 e:\utn frgp\2° cuatrimestre\laboratorio ii\lara-project\tp1-archivos\funciones.h
+
+1600986673 source:e:\utn frgp\2° cuatrimestre\laboratorio ii\lara-project\tp1-archivos\main.cpp
+	<iostream>
+	<locale.h>
+	<windows.h>
+	"funciones.h"
+	"strUsuario.h"
+
+1600986547 source:e:\utn frgp\2° cuatrimestre\laboratorio ii\lara-project\tp1-archivos\funciones.cpp
+	<iostream>
+	<windows.h>
+	<string.h>
+	<cstdio>
+	<ctime>
+	"funciones.h"
+	"strUsuario.h"
+	"entrenamiento.h"
+	"ui.h"
+
+1606704287 D
+
+1606967577 source:c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\entrenamiento.cpp
+	<iostream>
+	<string.h>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"entrenamiento.h"
+	"cartel.h"
+	"validar.h"
+
+1606772023 
+	<iostream>
+	<string.h>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"entrenamiento.h"
+	"cartel.h"
+	"validar.h"
+	<iostream>
+	<windows.h>
+	"ui.h"
+	"rlutil.h"
+	<stdio.h>
+	<string.h>
+	"menu.h"
+	"cartel.h"
+	"fecha.h"
+	"usuario.h"
+	"entrenamiento.h"
+	"validar.h"
+	<iostream>
+	<iomanip>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+	<iostream>
+	<iomanip>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+	<iostream>
+	<windows.h>
+	"ui.h"
+	"rlutil.h"
+	<stdio.h>
+	<string.h>
+	"menu.h"
+	"cartel.h"
+	"fecha.h"
+	"usuario.h"
+	"entrenamiento.h"
+	"validar.h"
+	<iostream>
+	<windows.h>
+	<time.h>
+	"ui.h"
+	"rlutil.h"
+	"menu.h"
+	"cartel.h"
+	"usuario.h"
+	"entrenamiento.h"
+	<iostream>
+	<windows.h>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"cartel.h"
+	<iostream>
+	"ui.h"
+	"rlutil.h"
+	"fecha.h"
+	"validar.h"
+	"cartel.h"
+	<iostream>
+	<string.h>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"usuario.h"
+	"cartel.h"
+	"validar.h"
+	<iostream>
+	"ui.h"
+	"rlutil.h"
+	"fecha.h"
+	"validar.h"
+	"cartel.h"
+	<iostream>
+	<string.h>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"cartel.h"
+	"usuario.h"
+	"entrenamiento.h"
+	"validar.h"
+	<iostream>
+	<windows.h>
+	<time.h>
+	"ui.h"
+	"rlutil.h"
+	"menu.h"
+	"cartel.h"
+	"validar.h"
+	"usuario.h"
+	"entrenamiento.h"
+	"parcial1.h"
+	<iostream>
+	<windows.h>
+	"ui.h"
+	"rlutil.h"
+	<stdio.h>
+	<string.h>
+	"menu.h"
+	"cartel.h"
+	"fecha.h"
+	"usuario.h"
+	"entrenamiento.h"
+	"validar.h"
+	"fecha.h"
+
+1606693818 c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\entrenamiento.h
+	"fecha.h"
+	"usuario.h"
+
+1600906800 c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\strusuario.h
+
+1600995706 source:c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\funciones.cpp
+	<iostream>
+	<windows.h>
+	<string.h>
+	<cstdio>
+	<ctime>
+	"funciones.h"
+	"strUsuario.h"
+	"entrenamiento.h"
+	"ui.h"
+	"ej1.h"
+
+1600986902 c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\funciones.h
+
+1606704287 c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\ui.h
+
+1600988885 source:c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\funcusuarios.cpp
+	<iostream>
+	<windows.h>
+	<ctime>
+	<cstdio>
+	"funciones.h"
+	"strUsuario.h"
+	"entrenamiento.h"
+
+1607042139 source:c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\main.cpp
+	<iostream>
+	<windows.h>
+	"ui.h"
+	"rlutil.h"
+	<stdio.h>
+	<string.h>
+	"menu.h"
+	"cartel.h"
+
+1606704287 source:c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\ui.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+
+1600568284 c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1600995678 c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\ej1.h
+
+1605883970 source:c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\ej1.cpp
+	<iostream>
+	<windows.h>
+	<string.h>
+	<cstdio>
+	<ctime>
+	"funciones.h"
+	"strUsuario.h"
+	"entrenamiento.h"
+	"ui.h"
+	"ej1.h"
+
+1605903633 c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\funciones.h
+
+1605903633 c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\strusuario.h
+
+1606503083 c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\entrenamiento.h
+	"fecha.h"
+	"usuario.h"
+
+1606745037 c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\ui.h
+
+1605883970 c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\ej1.h
+
+1607003850 source:c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\entrenamiento.cpp
+	<iostream>
+	<string.h>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"entrenamiento.h"
+	"cartel.h"
+	"validar.h"
+
+1605903753 source:c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\funciones.cpp
+	<iostream>
+	<windows.h>
+	<string.h>
+	<cstdio>
+	<ctime>
+	"funciones.h"
+	"strUsuario.h"
+	"entrenamiento.h"
+	"rlutil.h"
+	"ui.h"
+	"carteles.h"
+	"ej1.h"
+
+1605898015 source:c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\funcusuarios.cpp
+	<iostream>
+	<windows.h>
+	<ctime>
+	<cstdio>
+	"funciones.h"
+	"strUsuario.h"
+	"entrenamiento.h"
+
+1606745037 source:c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\ui.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	"ui.h"
+	"rlutil.h"
+
+1601305701 c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1607008272 source:c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\main.cpp
+	<iostream>
+	<windows.h>
+	"ui.h"
+	"rlutil.h"
+	<stdio.h>
+	<string.h>
+	"menu.h"
+	"cartel.h"
+
+1605903633 c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\carteles.h
+
+1605903648 source:c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\carteles.cpp
+	<iostream>
+	"ui.h"
+	"rlutil.h"
+	"carteles.h"
+
+1607009361 source:c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\menu.cpp
+	<iostream>
+	<windows.h>
+	<time.h>
+	"ui.h"
+	"rlutil.h"
+	"menu.h"
+	"cartel.h"
+	"validar.h"
+	"usuario.h"
+	"entrenamiento.h"
+	"parcial1.h"
+	"recup1.h"
+
+1607003872 c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\menu.h
+
+1607006589 c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\cartel.h
+
+1607008081 source:c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\cartel.cpp
+	<iostream>
+	<windows.h>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"cartel.h"
+
+1606745037 source:c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\fecha.cpp
+	<iostream>
+	"ui.h"
+	"rlutil.h"
+	"fecha.h"
+	"validar.h"
+	"cartel.h"
+
+1606414598 c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\fecha.h
+
+1607003872 c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\usuario.h
+	"fecha.h"
+
+1606502987 source:c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\usuario.cpp
+
+1606745037 source:c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\validar.cpp
+	<iostream>
+	<string.h>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"cartel.h"
+	"usuario.h"
+	"entrenamiento.h"
+	"validar.h"
+
+1606745037 c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\validar.h
+
+1607039943 source:c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\cartel.cpp
+	<iostream>
+	<windows.h>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"cartel.h"
+
+1607030786 c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\cartel.h
+
+1606693818 c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\fecha.h
+
+1606967571 c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\usuario.h
+	"fecha.h"
+
+1606704287 c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\validar.h
+
+1606704287 source:c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\fecha.cpp
+	<iostream>
+	"ui.h"
+	"rlutil.h"
+	"fecha.h"
+	"validar.h"
+	"cartel.h"
+
+1607040056 c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\menu.h
+
+1606693968 source:c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\usuario.cpp
+	<iostream>
+	<string.h>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"usuario.h"
+	"cartel.h"
+	"validar.h"
+
+1606704287 source:c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\validar.cpp
+	<iostream>
+	<string.h>
+	<iomanip>
+	"ui.h"
+	"rlutil.h"
+	"cartel.h"
+	"usuario.h"
+	"entrenamiento.h"
+	"validar.h"
+
+1607040003 source:c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\menu.cpp
+	<iostream>
+	<windows.h>
+	<time.h>
+	"ui.h"
+	"rlutil.h"
+	"menu.h"
+	"cartel.h"
+	"validar.h"
+	"usuario.h"
+	"entrenamiento.h"
+	"recup1.h"
+
+1607035063 source:c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\parcial1.cpp
+	<iostream>
+	<windows.h>
+	"ui.h"
+	"rlutil.h"
+	<stdio.h>
+	<string.h>
+	<iomanip>
+	"menu.h"
+	"cartel.h"
+	"fecha.h"
+	"usuario.h"
+	"entrenamiento.h"
+	"validar.h"
+	"parcial1.h"
+
+1607035063 c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\parcial1.h
+
+1607004708 c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\parcial1.h
+
+1607008920 source:c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\parcial1.cpp
+	<iostream>
+	<windows.h>
+	"ui.h"
+	"rlutil.h"
+	<stdio.h>
+	<string.h>
+	<iomanip>
+	"menu.h"
+	"cartel.h"
+	"fecha.h"
+	"usuario.h"
+	"entrenamiento.h"
+	"validar.h"
+	"parcial1.h"
+
+1607009207 source:c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\recup1.cpp
+	<iostream>
+	<windows.h>
+	"ui.h"
+	"rlutil.h"
+	<stdio.h>
+	<string.h>
+	<iomanip>
+	"menu.h"
+	"cartel.h"
+	"fecha.h"
+	"usuario.h"
+	"entrenamiento.h"
+	"validar.h"
+	"recup1.h"
+
+1607009207 c:\users\tivit\documents\github\utn-laboratorio-ii-parcial-1\recup1.h
+
+1607038569 c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\recup1.h
+
+1607041744 source:c:\users\maxi\documents\github\utn-laboratorio-ii-parcial-1\recup1.cpp
+	<iostream>
+	<windows.h>
+	"ui.h"
+	"rlutil.h"
+	<stdio.h>
+	<string.h>
+	<iomanip>
+	"cartel.h"
+	"fecha.h"
+	"usuario.h"
+	"entrenamiento.h"
+	"recup1.h"
+
