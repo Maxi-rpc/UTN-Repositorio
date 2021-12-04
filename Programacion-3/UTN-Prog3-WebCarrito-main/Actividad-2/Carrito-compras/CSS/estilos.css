@@ -1,0 +1,69 @@
+﻿:root {
+    --color-primario: rgba(0, 0, 255, 0.651);
+}
+
+.color-primario{
+    background: var(--color-primario);
+}
+
+body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.barra-espacio-50{
+    height: 50px
+}
+
+a {
+    color: black;
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+.contenedor {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.migas {
+    background-color: transparent;
+}
+
+.cat-card {
+    border: 1px solid lightgray;
+    min-height: 100px;
+    padding: 2% 0 2% 0;
+}
+
+    .cat-card h5 {
+        font-weight: lighter;
+    }
+
+.cat-icon {
+    font-size: 2rem;
+}
+
+.cat-card:hover {
+    background-color: var(--color-primario);
+    color: white;
+}
+
+.mini-card {
+    margin-top: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+.footer-icon {
+    font-size: 1.5rem;
+}
+
+.footer-logo {
+    width: 60%;
+}

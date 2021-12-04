@@ -1,0 +1,152 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Carrito_compras.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Mi aplicación ASP.NET</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link href="CSS/estilos.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:scriptreference name="bootstrap" />
+
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <%--Barra de navegación--%>
+             
+        <nav class="navbar navbar-expand-lg navbar-dark color-primario">
+            <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="Default.aspx">
+                <img
+          src="./web-carrito-logo-white.png"
+          alt="Web-Carrito"
+          width="80"
+        />
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Art.aspx?id=4&marca=0&buscar=0">Computación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Art.aspx?id=1&marca=0&buscar=0">Celulares</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Art.aspx?id=3&marca=0&buscar=0">Audio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Art.aspx?id=5&marca=0&buscar=0">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Art.aspx?id=6&marca=0&buscar=0">Cámaras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Art.aspx?id=2&marca=0&buscar=0">Televisores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Art.aspx?id=7&marca=0&buscar=0">Videojuegos</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0" action="Art.aspx?id=0&marca=0&">
+                    <asp:TextBox ID="TxtBuscar" runat="server" CssClass="form-control mr-sm-2 w-25"></asp:TextBox>
+                    <asp:Button ID="BtnBuscar" runat="server" Text="Ir" OnClick="BtnBuscar_Click" CssClass="btn btn-light my-2 my-sm-0 mr-2" />
+                </form>
+            </div>
+                <div class="btn btn-light">
+                    <a href="Carrito.aspx"><i class="fas fa-shopping-cart"></i><span class="badge badge-dark ml-1"><%=Session["CantidadCarrito"]%></span></a>
+                </div>
+           </div>
+        </nav>
+                     
+
+        <%--Contenido--%>
+
+        <div class="container ">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            
+        <%--Footer--%>
+         
+            <footer class="container mt-4 border-top">
+                <div class="row pt-4">
+                    <div class="col">
+                        <a href="Default.aspx">
+                            <img
+                                class="img-fluid footer-logo"
+                                src="./web-carrito-logo.png"
+                                alt="Web-Carrito" />
+                        </a>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li class="font-weight-bold">Institucional</li>
+                            <li>Quiénes somos</li>
+                            <li>Términos y condiciones</li>
+                            <li>Defensa al consumidor</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li class="font-weight-bold">Ayuda</li>
+                            <li>Preguntas frecuentes</li>
+                            <li>Pagos</li>
+                            <li>Cambios</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li class="font-weight-bold">Contacto</li>
+                            <li><i class="footer-icon fab fa-instagram"></i></li>
+                            <li><i class="footer-icon fab fa-facebook-f"></i></li>
+                            <li><i class="footer-icon fab fa-whatsapp"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="text-center">
+                    &copy; <%: DateTime.Now.Year %> - Mi aplicación ASP.NET "Carrito de
+        compras" by
+        <a href="https://github.com/Gaston-Paz">Gaston Paz</a> -
+        <a href="https://github.com/Maxi-rpc">Maximiliano Miranda</a>
+                </p>
+            </footer>
+        </div>
+
+    </form>
+</body>
+</html>
