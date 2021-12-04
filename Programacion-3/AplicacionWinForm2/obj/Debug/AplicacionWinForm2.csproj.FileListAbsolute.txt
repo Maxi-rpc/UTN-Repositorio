@@ -1,0 +1,10 @@
+C:\Users\Max\Documents\GitHub\Programacion-3\AplicacionWinForm2\bin\Debug\AplicacionWinForm2.exe.config
+C:\Users\Max\Documents\GitHub\Programacion-3\AplicacionWinForm2\bin\Debug\AplicacionWinForm2.exe
+C:\Users\Max\Documents\GitHub\Programacion-3\AplicacionWinForm2\bin\Debug\AplicacionWinForm2.pdb
+C:\Users\Max\Documents\GitHub\Programacion-3\AplicacionWinForm2\obj\Debug\AplicacionWinForm2.csprojAssemblyReference.cache
+C:\Users\Max\Documents\GitHub\Programacion-3\AplicacionWinForm2\obj\Debug\AplicacionWinForm2.Properties.Resources.resources
+C:\Users\Max\Documents\GitHub\Programacion-3\AplicacionWinForm2\obj\Debug\AplicacionWinForm2.csproj.GenerateResource.cache
+C:\Users\Max\Documents\GitHub\Programacion-3\AplicacionWinForm2\obj\Debug\AplicacionWinForm2.csproj.CoreCompileInputs.cache
+C:\Users\Max\Documents\GitHub\Programacion-3\AplicacionWinForm2\obj\Debug\AplicacionWinForm2.exe
+C:\Users\Max\Documents\GitHub\Programacion-3\AplicacionWinForm2\obj\Debug\AplicacionWinForm2.pdb
+C:\Users\Max\Documents\GitHub\Programacion-3\AplicacionWinForm2\obj\Debug\AplicacionWinForm2.FormRadioButtonCheckBox.resources

@@ -1,0 +1,10 @@
+C:\Users\Max\Documents\GitHub\Programacion-3\Practica7\bin\Debug\Practica7.exe.config
+C:\Users\Max\Documents\GitHub\Programacion-3\Practica7\bin\Debug\Practica7.exe
+C:\Users\Max\Documents\GitHub\Programacion-3\Practica7\bin\Debug\Practica7.pdb
+C:\Users\Max\Documents\GitHub\Programacion-3\Practica7\obj\Debug\Practica7.csprojAssemblyReference.cache
+C:\Users\Max\Documents\GitHub\Programacion-3\Practica7\obj\Debug\Practica7.FormRichTextBox.resources
+C:\Users\Max\Documents\GitHub\Programacion-3\Practica7\obj\Debug\Practica7.Properties.Resources.resources
+C:\Users\Max\Documents\GitHub\Programacion-3\Practica7\obj\Debug\Practica7.csproj.GenerateResource.cache
+C:\Users\Max\Documents\GitHub\Programacion-3\Practica7\obj\Debug\Practica7.csproj.CoreCompileInputs.cache
+C:\Users\Max\Documents\GitHub\Programacion-3\Practica7\obj\Debug\Practica7.exe
+C:\Users\Max\Documents\GitHub\Programacion-3\Practica7\obj\Debug\Practica7.pdb

@@ -1,0 +1,8 @@
+C:\Users\Max\Documents\GitHub\Programacion-3\Act-2\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Max\Documents\GitHub\Programacion-3\Act-2\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Max\Documents\GitHub\Programacion-3\Act-2\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Max\Documents\GitHub\Programacion-3\Act-2\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\Max\Documents\GitHub\Programacion-3\Act-2\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\Max\Documents\GitHub\Programacion-3\Act-2\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Max\Documents\GitHub\Programacion-3\Act-2\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Max\Documents\GitHub\Programacion-3\Act-2\Presentacion\obj\Debug\Presentacion.pdb
